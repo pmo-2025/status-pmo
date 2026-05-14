@@ -5242,18 +5242,20 @@
     "url": "https://cerrajerosalcasser.com",
     "icon": "https://icons.duckduckgo.com/ip3/cerrajerosalcasser.com.ico",
     "slug": "cerrajerosalcasser-com",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "97.63%",
+    "uptimeDay": "97.63%",
+    "uptimeWeek": "97.63%",
+    "uptimeMonth": "97.63%",
+    "uptimeYear": "97.63%",
     "time": 2590,
     "timeDay": 2590,
     "timeWeek": 2590,
     "timeMonth": 2590,
     "timeYear": 2590,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 5
+    }
   },
   {
     "name": "cerrajerosalfafar.com",
