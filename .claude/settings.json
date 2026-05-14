@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import openpyxl; print\\('openpyxl OK'\\)\")",
+      "Bash(pip install *)",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import requests; print\\('requests OK'\\)\")",
+      "Bash(git commit -m ' *)",
+      "Bash(gh run *)",
+      "WebFetch(domain:upptime.js.org)"
+    ]
+  }
+}
