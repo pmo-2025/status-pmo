@@ -5,17 +5,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/solucionas.es.ico",
     "slug": "solucionas-es",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "85.12%",
+    "uptimeDay": "85.12%",
+    "uptimeWeek": "85.12%",
+    "uptimeMonth": "85.12%",
+    "uptimeYear": "85.12%",
     "time": 986,
     "timeDay": 986,
     "timeWeek": 986,
     "timeMonth": 986,
     "timeYear": 986,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 39
+    }
   },
   {
     "name": "cerrajerosleon.com",
@@ -23,17 +25,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/cerrajerosleon.com.ico",
     "slug": "cerrajerosleon-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "85.21%",
+    "uptimeDay": "85.21%",
+    "uptimeWeek": "85.21%",
+    "uptimeMonth": "85.21%",
+    "uptimeYear": "85.21%",
     "time": 654,
     "timeDay": 654,
     "timeWeek": 654,
     "timeMonth": 654,
     "timeYear": 654,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 38
+    }
   },
   {
     "name": "reparacionelectrodomesticosleon.com",
@@ -41,17 +45,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/reparacionelectrodomesticosleon.com.ico",
     "slug": "reparacionelectrodomesticosleon-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "85.33%",
+    "uptimeDay": "85.33%",
+    "uptimeWeek": "85.33%",
+    "uptimeMonth": "85.33%",
+    "uptimeYear": "85.33%",
     "time": 769,
     "timeDay": 769,
     "timeWeek": 769,
     "timeMonth": 769,
     "timeYear": 769,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 38
+    }
   },
   {
     "name": "electricistasleon.com",
@@ -59,17 +65,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/electricistasleon.com.ico",
     "slug": "electricistasleon-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "85.43%",
+    "uptimeDay": "85.43%",
+    "uptimeWeek": "85.43%",
+    "uptimeMonth": "85.43%",
+    "uptimeYear": "85.43%",
     "time": 587,
     "timeDay": 587,
     "timeWeek": 587,
     "timeMonth": 587,
     "timeYear": 587,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 38
+    }
   },
   {
     "name": "leonfontaneros.com",
@@ -77,17 +85,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/leonfontaneros.com.ico",
     "slug": "leonfontaneros-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "85.53%",
+    "uptimeDay": "85.53%",
+    "uptimeWeek": "85.53%",
+    "uptimeMonth": "85.53%",
+    "uptimeYear": "85.53%",
     "time": 696,
     "timeDay": 696,
     "timeWeek": 696,
     "timeMonth": 696,
     "timeYear": 696,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 38
+    }
   },
   {
     "name": "leondesatascos.com",
@@ -95,17 +105,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/leondesatascos.com.ico",
     "slug": "leondesatascos-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "85.63%",
+    "uptimeDay": "85.63%",
+    "uptimeWeek": "85.63%",
+    "uptimeMonth": "85.63%",
+    "uptimeYear": "85.63%",
     "time": 764,
     "timeDay": 764,
     "timeWeek": 764,
     "timeMonth": 764,
     "timeYear": 764,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 37
+    }
   },
   {
     "name": "salamancacerrajeros.com",
@@ -113,17 +125,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/salamancacerrajeros.com.ico",
     "slug": "salamancacerrajeros-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "85.73%",
+    "uptimeDay": "85.73%",
+    "uptimeWeek": "85.73%",
+    "uptimeMonth": "85.73%",
+    "uptimeYear": "85.73%",
     "time": 867,
     "timeDay": 867,
     "timeWeek": 867,
     "timeMonth": 867,
     "timeYear": 867,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 37
+    }
   },
   {
     "name": "salamancafontaneros.com",
@@ -131,17 +145,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/salamancafontaneros.com.ico",
     "slug": "salamancafontaneros-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "85.83%",
+    "uptimeDay": "85.83%",
+    "uptimeWeek": "85.83%",
+    "uptimeMonth": "85.83%",
+    "uptimeYear": "85.83%",
     "time": 750,
     "timeDay": 750,
     "timeWeek": 750,
     "timeMonth": 750,
     "timeYear": 750,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 37
+    }
   },
   {
     "name": "salamancadesatascos.com",
@@ -149,17 +165,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/salamancadesatascos.com.ico",
     "slug": "salamancadesatascos-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "85.94%",
+    "uptimeDay": "85.94%",
+    "uptimeWeek": "85.94%",
+    "uptimeMonth": "85.94%",
+    "uptimeYear": "85.94%",
     "time": 867,
     "timeDay": 867,
     "timeWeek": 867,
     "timeMonth": 867,
     "timeYear": 867,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 36
+    }
   },
   {
     "name": "salamancaelectricistas.com",
@@ -167,17 +185,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/salamancaelectricistas.com.ico",
     "slug": "salamancaelectricistas-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "86.03%",
+    "uptimeDay": "86.03%",
+    "uptimeWeek": "86.03%",
+    "uptimeMonth": "86.03%",
+    "uptimeYear": "86.03%",
     "time": 848,
     "timeDay": 848,
     "timeWeek": 848,
     "timeMonth": 848,
     "timeYear": 848,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 36
+    }
   },
   {
     "name": "reparacionelectrodomesticossalamanca.com",
@@ -185,17 +205,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/reparacionelectrodomesticossalamanca.com.ico",
     "slug": "reparacionelectrodomesticossalamanca-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "86.14%",
+    "uptimeDay": "86.14%",
+    "uptimeWeek": "86.14%",
+    "uptimeMonth": "86.14%",
+    "uptimeYear": "86.14%",
     "time": 870,
     "timeDay": 870,
     "timeWeek": 870,
     "timeMonth": 870,
     "timeYear": 870,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 36
+    }
   },
   {
     "name": "malagaelectricistas.com",
@@ -203,17 +225,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/malagaelectricistas.com.ico",
     "slug": "malagaelectricistas-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "86.24%",
+    "uptimeDay": "86.24%",
+    "uptimeWeek": "86.24%",
+    "uptimeMonth": "86.24%",
+    "uptimeYear": "86.24%",
     "time": 840,
     "timeDay": 840,
     "timeWeek": 840,
     "timeMonth": 840,
     "timeYear": 840,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 36
+    }
   },
   {
     "name": "malagareparacionelectrodomesticos.com",
@@ -221,17 +245,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/malagareparacionelectrodomesticos.com.ico",
     "slug": "malagareparacionelectrodomesticos-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "86.35%",
+    "uptimeDay": "86.35%",
+    "uptimeWeek": "86.35%",
+    "uptimeMonth": "86.35%",
+    "uptimeYear": "86.35%",
     "time": 837,
     "timeDay": 837,
     "timeWeek": 837,
     "timeMonth": 837,
     "timeYear": 837,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 35
+    }
   },
   {
     "name": "malagacerrajeros.com",
@@ -239,17 +265,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/malagacerrajeros.com.ico",
     "slug": "malagacerrajeros-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "86.45%",
+    "uptimeDay": "86.45%",
+    "uptimeWeek": "86.45%",
+    "uptimeMonth": "86.45%",
+    "uptimeYear": "86.45%",
     "time": 732,
     "timeDay": 732,
     "timeWeek": 732,
     "timeMonth": 732,
     "timeYear": 732,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 35
+    }
   },
   {
     "name": "malagafontaneros.com",
@@ -257,17 +285,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/malagafontaneros.com.ico",
     "slug": "malagafontaneros-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "86.56%",
+    "uptimeDay": "86.56%",
+    "uptimeWeek": "86.56%",
+    "uptimeMonth": "86.56%",
+    "uptimeYear": "86.56%",
     "time": 701,
     "timeDay": 701,
     "timeWeek": 701,
     "timeMonth": 701,
     "timeYear": 701,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 35
+    }
   },
   {
     "name": "malagadesatascos.com",
@@ -275,17 +305,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/malagadesatascos.com.ico",
     "slug": "malagadesatascos-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "86.66%",
+    "uptimeDay": "86.66%",
+    "uptimeWeek": "86.66%",
+    "uptimeMonth": "86.66%",
+    "uptimeYear": "86.66%",
     "time": 743,
     "timeDay": 743,
     "timeWeek": 743,
     "timeMonth": 743,
     "timeYear": 743,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 35
+    }
   },
   {
     "name": "cerrajeroscadiz.com",
@@ -293,17 +325,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/cerrajeroscadiz.com.ico",
     "slug": "cerrajeroscadiz-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "86.77%",
+    "uptimeDay": "86.77%",
+    "uptimeWeek": "86.77%",
+    "uptimeMonth": "86.77%",
+    "uptimeYear": "86.77%",
     "time": 810,
     "timeDay": 810,
     "timeWeek": 810,
     "timeMonth": 810,
     "timeYear": 810,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 34
+    }
   },
   {
     "name": "reparacionelectrodomesticoscadiz.com",
@@ -311,17 +345,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/reparacionelectrodomesticoscadiz.com.ico",
     "slug": "reparacionelectrodomesticoscadiz-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "86.86%",
+    "uptimeDay": "86.86%",
+    "uptimeWeek": "86.86%",
+    "uptimeMonth": "86.86%",
+    "uptimeYear": "86.86%",
     "time": 835,
     "timeDay": 835,
     "timeWeek": 835,
     "timeMonth": 835,
     "timeYear": 835,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 34
+    }
   },
   {
     "name": "fontaneroscadiz.com",
@@ -329,17 +365,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/fontaneroscadiz.com.ico",
     "slug": "fontaneroscadiz-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "86.97%",
+    "uptimeDay": "86.97%",
+    "uptimeWeek": "86.97%",
+    "uptimeMonth": "86.97%",
+    "uptimeYear": "86.97%",
     "time": 732,
     "timeDay": 732,
     "timeWeek": 732,
     "timeMonth": 732,
     "timeYear": 732,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 34
+    }
   },
   {
     "name": "electricistascadiz.com",
@@ -347,17 +385,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/electricistascadiz.com.ico",
     "slug": "electricistascadiz-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "87.07%",
+    "uptimeDay": "87.07%",
+    "uptimeWeek": "87.07%",
+    "uptimeMonth": "87.07%",
+    "uptimeYear": "87.07%",
     "time": 731,
     "timeDay": 731,
     "timeWeek": 731,
     "timeMonth": 731,
     "timeYear": 731,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 34
+    }
   },
   {
     "name": "cerrajeroscordoba.com",
@@ -365,17 +405,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/cerrajeroscordoba.com.ico",
     "slug": "cerrajeroscordoba-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "87.17%",
+    "uptimeDay": "87.17%",
+    "uptimeWeek": "87.17%",
+    "uptimeMonth": "87.17%",
+    "uptimeYear": "87.17%",
     "time": 829,
     "timeDay": 829,
     "timeWeek": 829,
     "timeMonth": 829,
     "timeYear": 829,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 33
+    }
   },
   {
     "name": "cordobadesatascos.com",
@@ -383,17 +425,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/cordobadesatascos.com.ico",
     "slug": "cordobadesatascos-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "87.27%",
+    "uptimeDay": "87.27%",
+    "uptimeWeek": "87.27%",
+    "uptimeMonth": "87.27%",
+    "uptimeYear": "87.27%",
     "time": 1493,
     "timeDay": 1493,
     "timeWeek": 1493,
     "timeMonth": 1493,
     "timeYear": 1493,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 33
+    }
   },
   {
     "name": "electricistascordoba.com",
@@ -401,17 +445,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/electricistascordoba.com.ico",
     "slug": "electricistascordoba-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "87.40%",
+    "uptimeDay": "87.40%",
+    "uptimeWeek": "87.40%",
+    "uptimeMonth": "87.40%",
+    "uptimeYear": "87.40%",
     "time": 656,
     "timeDay": 656,
     "timeWeek": 656,
     "timeMonth": 656,
     "timeYear": 656,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 33
+    }
   },
   {
     "name": "fontaneroscordoba.com",
@@ -419,17 +465,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/fontaneroscordoba.com.ico",
     "slug": "fontaneroscordoba-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "87.59%",
+    "uptimeDay": "87.59%",
+    "uptimeWeek": "87.59%",
+    "uptimeMonth": "87.59%",
+    "uptimeYear": "87.59%",
     "time": 4734,
     "timeDay": 4734,
     "timeWeek": 4734,
     "timeMonth": 4734,
     "timeYear": 4734,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 32
+    }
   },
   {
     "name": "reparacionelectrodomesticoscordoba.com",
@@ -437,17 +485,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/reparacionelectrodomesticoscordoba.com.ico",
     "slug": "reparacionelectrodomesticoscordoba-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "87.68%",
+    "uptimeDay": "87.68%",
+    "uptimeWeek": "87.68%",
+    "uptimeMonth": "87.68%",
+    "uptimeYear": "87.68%",
     "time": 1040,
     "timeDay": 1040,
     "timeWeek": 1040,
     "timeMonth": 1040,
     "timeYear": 1040,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 32
+    }
   },
   {
     "name": "reparacionelectrodomesticosdonosti.com",
@@ -455,17 +505,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/reparacionelectrodomesticosdonosti.com.ico",
     "slug": "reparacionelectrodomesticosdonosti-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "87.79%",
+    "uptimeDay": "87.79%",
+    "uptimeWeek": "87.79%",
+    "uptimeMonth": "87.79%",
+    "uptimeYear": "87.79%",
     "time": 912,
     "timeDay": 912,
     "timeWeek": 912,
     "timeMonth": 912,
     "timeYear": 912,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 32
+    }
   },
   {
     "name": "cerrajerodonosti.com",
@@ -473,17 +525,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/cerrajerodonosti.com.ico",
     "slug": "cerrajerodonosti-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "87.96%",
+    "uptimeDay": "87.96%",
+    "uptimeWeek": "87.96%",
+    "uptimeMonth": "87.96%",
+    "uptimeYear": "87.96%",
     "time": 5129,
     "timeDay": 5129,
     "timeWeek": 5129,
     "timeMonth": 5129,
     "timeYear": 5129,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 31
+    }
   },
   {
     "name": "donostiafontaneros.com",
@@ -491,17 +545,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/donostiafontaneros.com.ico",
     "slug": "donostiafontaneros-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "88.12%",
+    "uptimeDay": "88.12%",
+    "uptimeWeek": "88.12%",
+    "uptimeMonth": "88.12%",
+    "uptimeYear": "88.12%",
     "time": 4900,
     "timeDay": 4900,
     "timeWeek": 4900,
     "timeMonth": 4900,
     "timeYear": 4900,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 31
+    }
   },
   {
     "name": "donostiaelectricistas.com",
@@ -509,17 +565,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/donostiaelectricistas.com.ico",
     "slug": "donostiaelectricistas-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "88.29%",
+    "uptimeDay": "88.29%",
+    "uptimeWeek": "88.29%",
+    "uptimeMonth": "88.29%",
+    "uptimeYear": "88.29%",
     "time": 822,
     "timeDay": 822,
     "timeWeek": 822,
     "timeMonth": 822,
     "timeYear": 822,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 30
+    }
   },
   {
     "name": "desatascosdonosti.com",
@@ -527,17 +585,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/desatascosdonosti.com.ico",
     "slug": "desatascosdonosti-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "88.38%",
+    "uptimeDay": "88.38%",
+    "uptimeWeek": "88.38%",
+    "uptimeMonth": "88.38%",
+    "uptimeYear": "88.38%",
     "time": 696,
     "timeDay": 696,
     "timeWeek": 696,
     "timeMonth": 696,
     "timeYear": 696,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 30
+    }
   },
   {
     "name": "electricistascoruna.com",
@@ -545,17 +605,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/electricistascoruna.com.ico",
     "slug": "electricistascoruna-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "88.52%",
+    "uptimeDay": "88.52%",
+    "uptimeWeek": "88.52%",
+    "uptimeMonth": "88.52%",
+    "uptimeYear": "88.52%",
     "time": 4886,
     "timeDay": 4886,
     "timeWeek": 4886,
     "timeMonth": 4886,
     "timeYear": 4886,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 30
+    }
   },
   {
     "name": "fontaneroscoruna.com",
@@ -563,17 +625,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/fontaneroscoruna.com.ico",
     "slug": "fontaneroscoruna-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "88.62%",
+    "uptimeDay": "88.62%",
+    "uptimeWeek": "88.62%",
+    "uptimeMonth": "88.62%",
+    "uptimeYear": "88.62%",
     "time": 985,
     "timeDay": 985,
     "timeWeek": 985,
     "timeMonth": 985,
     "timeYear": 985,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 29
+    }
   },
   {
     "name": "cerrajeroscoruna.com",
@@ -581,17 +645,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/cerrajeroscoruna.com.ico",
     "slug": "cerrajeroscoruna-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "88.73%",
+    "uptimeDay": "88.73%",
+    "uptimeWeek": "88.73%",
+    "uptimeMonth": "88.73%",
+    "uptimeYear": "88.73%",
     "time": 955,
     "timeDay": 955,
     "timeWeek": 955,
     "timeMonth": 955,
     "timeYear": 955,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 29
+    }
   },
   {
     "name": "reparacionelectrodomesticoslacoruña.com",
@@ -599,17 +665,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/xn--reparacionelectrodomesticoslacorua-7id.com.ico",
     "slug": "reparacionelectrodomesticoslacoruna-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "88.83%",
+    "uptimeDay": "88.83%",
+    "uptimeWeek": "88.83%",
+    "uptimeMonth": "88.83%",
+    "uptimeYear": "88.83%",
     "time": 770,
     "timeDay": 770,
     "timeWeek": 770,
     "timeMonth": 770,
     "timeYear": 770,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 29
+    }
   },
   {
     "name": "desatascos-coruña.com",
@@ -617,17 +685,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/xn--desatascos-corua-lub.com.ico",
     "slug": "desatascos-coruna-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "88.93%",
+    "uptimeDay": "88.93%",
+    "uptimeWeek": "88.93%",
+    "uptimeMonth": "88.93%",
+    "uptimeYear": "88.93%",
     "time": 709,
     "timeDay": 709,
     "timeWeek": 709,
     "timeMonth": 709,
     "timeYear": 709,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 29
+    }
   },
   {
     "name": "cerrajero-girona.com",
@@ -635,17 +705,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/cerrajero-girona.com.ico",
     "slug": "cerrajero-girona-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "89.03%",
+    "uptimeDay": "89.03%",
+    "uptimeWeek": "89.03%",
+    "uptimeMonth": "89.03%",
+    "uptimeYear": "89.03%",
     "time": 1749,
     "timeDay": 1749,
     "timeWeek": 1749,
     "timeMonth": 1749,
     "timeYear": 1749,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 28
+    }
   },
   {
     "name": "fontaneros-girona.com",
@@ -653,17 +725,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/fontaneros-girona.com.ico",
     "slug": "fontaneros-girona-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "89.13%",
+    "uptimeDay": "89.13%",
+    "uptimeWeek": "89.13%",
+    "uptimeMonth": "89.13%",
+    "uptimeYear": "89.13%",
     "time": 848,
     "timeDay": 848,
     "timeWeek": 848,
     "timeMonth": 848,
     "timeYear": 848,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 28
+    }
   },
   {
     "name": "electricistas-girona.com",
@@ -671,17 +745,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/electricistas-girona.com.ico",
     "slug": "electricistas-girona-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "89.24%",
+    "uptimeDay": "89.24%",
+    "uptimeWeek": "89.24%",
+    "uptimeMonth": "89.24%",
+    "uptimeYear": "89.24%",
     "time": 709,
     "timeDay": 709,
     "timeWeek": 709,
     "timeMonth": 709,
     "timeYear": 709,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 28
+    }
   },
   {
     "name": "reparacionelectrodomesticosgirona.com",
@@ -689,17 +765,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/reparacionelectrodomesticosgirona.com.ico",
     "slug": "reparacionelectrodomesticosgirona-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "89.34%",
+    "uptimeDay": "89.34%",
+    "uptimeWeek": "89.34%",
+    "uptimeMonth": "89.34%",
+    "uptimeYear": "89.34%",
     "time": 752,
     "timeDay": 752,
     "timeWeek": 752,
     "timeMonth": 752,
     "timeYear": 752,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 28
+    }
   },
   {
     "name": "desatascos-girona.com",
@@ -707,17 +785,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/desatascos-girona.com.ico",
     "slug": "desatascos-girona-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "89.44%",
+    "uptimeDay": "89.44%",
+    "uptimeWeek": "89.44%",
+    "uptimeMonth": "89.44%",
+    "uptimeYear": "89.44%",
     "time": 838,
     "timeDay": 838,
     "timeWeek": 838,
     "timeMonth": 838,
     "timeYear": 838,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 27
+    }
   },
   {
     "name": "cerrajerosvalladolid.com",
@@ -725,17 +805,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/cerrajerosvalladolid.com.ico",
     "slug": "cerrajerosvalladolid-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "89.53%",
+    "uptimeDay": "89.53%",
+    "uptimeWeek": "89.53%",
+    "uptimeMonth": "89.53%",
+    "uptimeYear": "89.53%",
     "time": 897,
     "timeDay": 897,
     "timeWeek": 897,
     "timeMonth": 897,
     "timeYear": 897,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 27
+    }
   },
   {
     "name": "fontanerosvalladolid.com",
@@ -743,17 +825,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/fontanerosvalladolid.com.ico",
     "slug": "fontanerosvalladolid-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "89.64%",
+    "uptimeDay": "89.64%",
+    "uptimeWeek": "89.64%",
+    "uptimeMonth": "89.64%",
+    "uptimeYear": "89.64%",
     "time": 841,
     "timeDay": 841,
     "timeWeek": 841,
     "timeMonth": 841,
     "timeYear": 841,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 27
+    }
   },
   {
     "name": "electricistasvalladolid.com",
@@ -761,17 +845,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/electricistasvalladolid.com.ico",
     "slug": "electricistasvalladolid-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "89.74%",
+    "uptimeDay": "89.74%",
+    "uptimeWeek": "89.74%",
+    "uptimeMonth": "89.74%",
+    "uptimeYear": "89.74%",
     "time": 817,
     "timeDay": 817,
     "timeWeek": 817,
     "timeMonth": 817,
     "timeYear": 817,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 27
+    }
   },
   {
     "name": "valladoliddesatascos.com",
@@ -779,17 +865,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/valladoliddesatascos.com.ico",
     "slug": "valladoliddesatascos-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "89.84%",
+    "uptimeDay": "89.84%",
+    "uptimeWeek": "89.84%",
+    "uptimeMonth": "89.84%",
+    "uptimeYear": "89.84%",
     "time": 671,
     "timeDay": 671,
     "timeWeek": 671,
     "timeMonth": 671,
     "timeYear": 671,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 26
+    }
   },
   {
     "name": "reparacionelectrodomesticosvalladolid.com",
@@ -797,17 +885,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/reparacionelectrodomesticosvalladolid.com.ico",
     "slug": "reparacionelectrodomesticosvalladolid-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "89.94%",
+    "uptimeDay": "89.94%",
+    "uptimeWeek": "89.94%",
+    "uptimeMonth": "89.94%",
+    "uptimeYear": "89.94%",
     "time": 591,
     "timeDay": 591,
     "timeWeek": 591,
     "timeMonth": 591,
     "timeYear": 591,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 26
+    }
   },
   {
     "name": "alicantecerrajeros.com",
@@ -815,17 +905,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/alicantecerrajeros.com.ico",
     "slug": "alicantecerrajeros-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "90.05%",
+    "uptimeDay": "90.05%",
+    "uptimeWeek": "90.05%",
+    "uptimeMonth": "90.05%",
+    "uptimeYear": "90.05%",
     "time": 977,
     "timeDay": 977,
     "timeWeek": 977,
     "timeMonth": 977,
     "timeYear": 977,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 26
+    }
   },
   {
     "name": "alicantedesatascos.com",
@@ -833,17 +925,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/alicantedesatascos.com.ico",
     "slug": "alicantedesatascos-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "90.14%",
+    "uptimeDay": "90.14%",
+    "uptimeWeek": "90.14%",
+    "uptimeMonth": "90.14%",
+    "uptimeYear": "90.14%",
     "time": 823,
     "timeDay": 823,
     "timeWeek": 823,
     "timeMonth": 823,
     "timeYear": 823,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 25
+    }
   },
   {
     "name": "alicantefontaneros.com",
@@ -851,17 +945,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/alicantefontaneros.com.ico",
     "slug": "alicantefontaneros-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "90.26%",
+    "uptimeDay": "90.26%",
+    "uptimeWeek": "90.26%",
+    "uptimeMonth": "90.26%",
+    "uptimeYear": "90.26%",
     "time": 882,
     "timeDay": 882,
     "timeWeek": 882,
     "timeMonth": 882,
     "timeYear": 882,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 25
+    }
   },
   {
     "name": "alicanteelectricistas.com",
@@ -869,17 +965,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/alicanteelectricistas.com.ico",
     "slug": "alicanteelectricistas-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "90.36%",
+    "uptimeDay": "90.36%",
+    "uptimeWeek": "90.36%",
+    "uptimeMonth": "90.36%",
+    "uptimeYear": "90.36%",
     "time": 910,
     "timeDay": 910,
     "timeWeek": 910,
     "timeMonth": 910,
     "timeYear": 910,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 25
+    }
   },
   {
     "name": "alicantereparacionelectrodomesticos.com",
@@ -887,17 +985,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/alicantereparacionelectrodomesticos.com.ico",
     "slug": "alicantereparacionelectrodomesticos-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "90.46%",
+    "uptimeDay": "90.46%",
+    "uptimeWeek": "90.46%",
+    "uptimeMonth": "90.46%",
+    "uptimeYear": "90.46%",
     "time": 652,
     "timeDay": 652,
     "timeWeek": 652,
     "timeMonth": 652,
     "timeYear": 652,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 25
+    }
   },
   {
     "name": "valencia-desatascos.com",
@@ -905,17 +1005,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/valencia-desatascos.com.ico",
     "slug": "valencia-desatascos-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "90.56%",
+    "uptimeDay": "90.56%",
+    "uptimeWeek": "90.56%",
+    "uptimeMonth": "90.56%",
+    "uptimeYear": "90.56%",
     "time": 949,
     "timeDay": 949,
     "timeWeek": 949,
     "timeMonth": 949,
     "timeYear": 949,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 24
+    }
   },
   {
     "name": "valenciafontaneros.com",
@@ -923,17 +1025,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/valenciafontaneros.com.ico",
     "slug": "valenciafontaneros-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "90.66%",
+    "uptimeDay": "90.66%",
+    "uptimeWeek": "90.66%",
+    "uptimeMonth": "90.66%",
+    "uptimeYear": "90.66%",
     "time": 1021,
     "timeDay": 1021,
     "timeWeek": 1021,
     "timeMonth": 1021,
     "timeYear": 1021,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 24
+    }
   },
   {
     "name": "fontaneros-de-valencia.es",
@@ -941,17 +1045,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/fontaneros-de-valencia.es.ico",
     "slug": "fontaneros-de-valencia-es",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "90.77%",
+    "uptimeDay": "90.77%",
+    "uptimeWeek": "90.77%",
+    "uptimeMonth": "90.77%",
+    "uptimeYear": "90.77%",
     "time": 2602,
     "timeDay": 2602,
     "timeWeek": 2602,
     "timeMonth": 2602,
     "timeYear": 2602,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 24
+    }
   },
   {
     "name": "fontaneros-de-valencia.com",
@@ -959,17 +1065,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/fontaneros-de-valencia.com.ico",
     "slug": "fontaneros-de-valencia-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "90.86%",
+    "uptimeDay": "90.86%",
+    "uptimeWeek": "90.86%",
+    "uptimeMonth": "90.86%",
+    "uptimeYear": "90.86%",
     "time": 1627,
     "timeDay": 1627,
     "timeWeek": 1627,
     "timeMonth": 1627,
     "timeYear": 1627,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 24
+    }
   },
   {
     "name": "valencia-fontaneros.com",
@@ -977,17 +1085,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/valencia-fontaneros.com.ico",
     "slug": "valencia-fontaneros-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "90.96%",
+    "uptimeDay": "90.96%",
+    "uptimeWeek": "90.96%",
+    "uptimeMonth": "90.96%",
+    "uptimeYear": "90.96%",
     "time": 2354,
     "timeDay": 2354,
     "timeWeek": 2354,
     "timeMonth": 2354,
     "timeYear": 2354,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 23
+    }
   },
   {
     "name": "valencia-fontaneros.es",
@@ -995,17 +1105,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/valencia-fontaneros.es.ico",
     "slug": "valencia-fontaneros-es",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "91.05%",
+    "uptimeDay": "91.05%",
+    "uptimeWeek": "91.05%",
+    "uptimeMonth": "91.05%",
+    "uptimeYear": "91.05%",
     "time": 509,
     "timeDay": 509,
     "timeWeek": 509,
     "timeMonth": 509,
     "timeYear": 509,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 23
+    }
   },
   {
     "name": "electricistasvalencia.com",
@@ -1013,17 +1125,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/electricistasvalencia.com.ico",
     "slug": "electricistasvalencia-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "91.16%",
+    "uptimeDay": "91.16%",
+    "uptimeWeek": "91.16%",
+    "uptimeMonth": "91.16%",
+    "uptimeYear": "91.16%",
     "time": 662,
     "timeDay": 662,
     "timeWeek": 662,
     "timeMonth": 662,
     "timeYear": 662,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 23
+    }
   },
   {
     "name": "reparaciónelectrodomésticosvalencia.com",
@@ -1031,17 +1145,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/xn--reparacinelectrodomsticosvalencia-t6c25a.com.ico",
     "slug": "reparacionelectrodomesticosvalencia-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "91.25%",
+    "uptimeDay": "91.25%",
+    "uptimeWeek": "91.25%",
+    "uptimeMonth": "91.25%",
+    "uptimeYear": "91.25%",
     "time": 608,
     "timeDay": 608,
     "timeWeek": 608,
     "timeMonth": 608,
     "timeYear": 608,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 23
+    }
   },
   {
     "name": "murciacerrajeros.com",
@@ -1049,17 +1165,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/murciacerrajeros.com.ico",
     "slug": "murciacerrajeros-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "91.35%",
+    "uptimeDay": "91.35%",
+    "uptimeWeek": "91.35%",
+    "uptimeMonth": "91.35%",
+    "uptimeYear": "91.35%",
     "time": 718,
     "timeDay": 718,
     "timeWeek": 718,
     "timeMonth": 718,
     "timeYear": 718,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 22
+    }
   },
   {
     "name": "desatascos-murcia24h.com",
@@ -1067,17 +1185,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/desatascos-murcia24h.com.ico",
     "slug": "desatascos-murcia24h-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "91.46%",
+    "uptimeDay": "91.46%",
+    "uptimeWeek": "91.46%",
+    "uptimeMonth": "91.46%",
+    "uptimeYear": "91.46%",
     "time": 707,
     "timeDay": 707,
     "timeWeek": 707,
     "timeMonth": 707,
     "timeYear": 707,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 22
+    }
   },
   {
     "name": "murciareparacionelectrodomesticos.com",
@@ -1085,17 +1205,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/murciareparacionelectrodomesticos.com.ico",
     "slug": "murciareparacionelectrodomesticos-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "91.56%",
+    "uptimeDay": "91.56%",
+    "uptimeWeek": "91.56%",
+    "uptimeMonth": "91.56%",
+    "uptimeYear": "91.56%",
     "time": 821,
     "timeDay": 821,
     "timeWeek": 821,
     "timeMonth": 821,
     "timeYear": 821,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 22
+    }
   },
   {
     "name": "murciafontaneros.com",
@@ -1103,17 +1225,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/murciafontaneros.com.ico",
     "slug": "murciafontaneros-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "91.66%",
+    "uptimeDay": "91.66%",
+    "uptimeWeek": "91.66%",
+    "uptimeMonth": "91.66%",
+    "uptimeYear": "91.66%",
     "time": 546,
     "timeDay": 546,
     "timeWeek": 546,
     "timeMonth": 546,
     "timeYear": 546,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 22
+    }
   },
   {
     "name": "electricistasenmurcia.com",
@@ -1121,17 +1245,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/electricistasenmurcia.com.ico",
     "slug": "electricistasenmurcia-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "91.76%",
+    "uptimeDay": "91.76%",
+    "uptimeWeek": "91.76%",
+    "uptimeMonth": "91.76%",
+    "uptimeYear": "91.76%",
     "time": 806,
     "timeDay": 806,
     "timeWeek": 806,
     "timeMonth": 806,
     "timeYear": 806,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 21
+    }
   },
   {
     "name": "granadacerrajeros.com",
@@ -1139,17 +1265,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/granadacerrajeros.com.ico",
     "slug": "granadacerrajeros-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "91.86%",
+    "uptimeDay": "91.86%",
+    "uptimeWeek": "91.86%",
+    "uptimeMonth": "91.86%",
+    "uptimeYear": "91.86%",
     "time": 613,
     "timeDay": 613,
     "timeWeek": 613,
     "timeMonth": 613,
     "timeYear": 613,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 21
+    }
   },
   {
     "name": "granadaelectricistas.com",
@@ -1157,17 +1285,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/granadaelectricistas.com.ico",
     "slug": "granadaelectricistas-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "91.96%",
+    "uptimeDay": "91.96%",
+    "uptimeWeek": "91.96%",
+    "uptimeMonth": "91.96%",
+    "uptimeYear": "91.96%",
     "time": 517,
     "timeDay": 517,
     "timeWeek": 517,
     "timeMonth": 517,
     "timeYear": 517,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 21
+    }
   },
   {
     "name": "granadadesatascos.com",
@@ -1175,17 +1305,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/granadadesatascos.com.ico",
     "slug": "granadadesatascos-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "92.06%",
+    "uptimeDay": "92.06%",
+    "uptimeWeek": "92.06%",
+    "uptimeMonth": "92.06%",
+    "uptimeYear": "92.06%",
     "time": 727,
     "timeDay": 727,
     "timeWeek": 727,
     "timeMonth": 727,
     "timeYear": 727,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 21
+    }
   },
   {
     "name": "granadafontaneros.com",
@@ -1193,17 +1325,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/granadafontaneros.com.ico",
     "slug": "granadafontaneros-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "92.16%",
+    "uptimeDay": "92.16%",
+    "uptimeWeek": "92.16%",
+    "uptimeMonth": "92.16%",
+    "uptimeYear": "92.16%",
     "time": 535,
     "timeDay": 535,
     "timeWeek": 535,
     "timeMonth": 535,
     "timeYear": 535,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 20
+    }
   },
   {
     "name": "reparacionelectrodomesticosgranada.com",
@@ -1211,17 +1345,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/reparacionelectrodomesticosgranada.com.ico",
     "slug": "reparacionelectrodomesticosgranada-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "92.26%",
+    "uptimeDay": "92.26%",
+    "uptimeWeek": "92.26%",
+    "uptimeMonth": "92.26%",
+    "uptimeYear": "92.26%",
     "time": 654,
     "timeDay": 654,
     "timeWeek": 654,
     "timeMonth": 654,
     "timeYear": 654,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 20
+    }
   },
   {
     "name": "toledo-desatascos.com",
@@ -1229,17 +1365,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/toledo-desatascos.com.ico",
     "slug": "toledo-desatascos-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "92.36%",
+    "uptimeDay": "92.36%",
+    "uptimeWeek": "92.36%",
+    "uptimeMonth": "92.36%",
+    "uptimeYear": "92.36%",
     "time": 580,
     "timeDay": 580,
     "timeWeek": 580,
     "timeMonth": 580,
     "timeYear": 580,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 20
+    }
   },
   {
     "name": "cerrajeros-toledo.com",
@@ -1247,17 +1385,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/cerrajeros-toledo.com.ico",
     "slug": "cerrajeros-toledo-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "92.45%",
+    "uptimeDay": "92.45%",
+    "uptimeWeek": "92.45%",
+    "uptimeMonth": "92.45%",
+    "uptimeYear": "92.45%",
     "time": 697,
     "timeDay": 697,
     "timeWeek": 697,
     "timeMonth": 697,
     "timeYear": 697,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 19
+    }
   },
   {
     "name": "fontaneros-toledo.com",
@@ -1265,17 +1405,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/fontaneros-toledo.com.ico",
     "slug": "fontaneros-toledo-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "92.56%",
+    "uptimeDay": "92.56%",
+    "uptimeWeek": "92.56%",
+    "uptimeMonth": "92.56%",
+    "uptimeYear": "92.56%",
     "time": 711,
     "timeDay": 711,
     "timeWeek": 711,
     "timeMonth": 711,
     "timeYear": 711,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 19
+    }
   },
   {
     "name": "toledoelectricistas.com",
@@ -1283,17 +1425,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/toledoelectricistas.com.ico",
     "slug": "toledoelectricistas-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "92.65%",
+    "uptimeDay": "92.65%",
+    "uptimeWeek": "92.65%",
+    "uptimeMonth": "92.65%",
+    "uptimeYear": "92.65%",
     "time": 676,
     "timeDay": 676,
     "timeWeek": 676,
     "timeMonth": 676,
     "timeYear": 676,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 19
+    }
   },
   {
     "name": "reparacionelectrodomesticostoledo.com",
@@ -1301,17 +1445,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/reparacionelectrodomesticostoledo.com.ico",
     "slug": "reparacionelectrodomesticostoledo-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "92.75%",
+    "uptimeDay": "92.75%",
+    "uptimeWeek": "92.75%",
+    "uptimeMonth": "92.75%",
+    "uptimeYear": "92.75%",
     "time": 604,
     "timeDay": 604,
     "timeWeek": 604,
     "timeMonth": 604,
     "timeYear": 604,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 19
+    }
   },
   {
     "name": "cerrajerosmallorca.com",
@@ -1319,17 +1465,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/cerrajerosmallorca.com.ico",
     "slug": "cerrajerosmallorca-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "92.85%",
+    "uptimeDay": "92.85%",
+    "uptimeWeek": "92.85%",
+    "uptimeMonth": "92.85%",
+    "uptimeYear": "92.85%",
     "time": 624,
     "timeDay": 624,
     "timeWeek": 624,
     "timeMonth": 624,
     "timeYear": 624,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 18
+    }
   },
   {
     "name": "fontanerosmallorca.com",
@@ -1337,17 +1485,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/fontanerosmallorca.com.ico",
     "slug": "fontanerosmallorca-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "92.95%",
+    "uptimeDay": "92.95%",
+    "uptimeWeek": "92.95%",
+    "uptimeMonth": "92.95%",
+    "uptimeYear": "92.95%",
     "time": 602,
     "timeDay": 602,
     "timeWeek": 602,
     "timeMonth": 602,
     "timeYear": 602,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 18
+    }
   },
   {
     "name": "electricistasmallorca.com",
@@ -1355,17 +1505,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/electricistasmallorca.com.ico",
     "slug": "electricistasmallorca-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "93.05%",
+    "uptimeDay": "93.05%",
+    "uptimeWeek": "93.05%",
+    "uptimeMonth": "93.05%",
+    "uptimeYear": "93.05%",
     "time": 581,
     "timeDay": 581,
     "timeWeek": 581,
     "timeMonth": 581,
     "timeYear": 581,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 18
+    }
   },
   {
     "name": "desatascospalma.com",
@@ -1373,17 +1525,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/desatascospalma.com.ico",
     "slug": "desatascospalma-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "93.15%",
+    "uptimeDay": "93.15%",
+    "uptimeWeek": "93.15%",
+    "uptimeMonth": "93.15%",
+    "uptimeYear": "93.15%",
     "time": 723,
     "timeDay": 723,
     "timeWeek": 723,
     "timeMonth": 723,
     "timeYear": 723,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 18
+    }
   },
   {
     "name": "reparacionelectrodomesticosmallorca.com",
@@ -1391,17 +1545,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/reparacionelectrodomesticosmallorca.com.ico",
     "slug": "reparacionelectrodomesticosmallorca-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "93.25%",
+    "uptimeDay": "93.25%",
+    "uptimeWeek": "93.25%",
+    "uptimeMonth": "93.25%",
+    "uptimeYear": "93.25%",
     "time": 807,
     "timeDay": 807,
     "timeWeek": 807,
     "timeMonth": 807,
     "timeYear": 807,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 17
+    }
   },
   {
     "name": "reparacionelectrodomesticospalma.com",
@@ -1409,17 +1565,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/reparacionelectrodomesticospalma.com.ico",
     "slug": "reparacionelectrodomesticospalma-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "93.36%",
+    "uptimeDay": "93.36%",
+    "uptimeWeek": "93.36%",
+    "uptimeMonth": "93.36%",
+    "uptimeYear": "93.36%",
     "time": 720,
     "timeDay": 720,
     "timeWeek": 720,
     "timeMonth": 720,
     "timeYear": 720,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 17
+    }
   },
   {
     "name": "desatascos-tenerife.com",
@@ -1427,17 +1585,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/desatascos-tenerife.com.ico",
     "slug": "desatascos-tenerife-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "93.45%",
+    "uptimeDay": "93.45%",
+    "uptimeWeek": "93.45%",
+    "uptimeMonth": "93.45%",
+    "uptimeYear": "93.45%",
     "time": 533,
     "timeDay": 533,
     "timeWeek": 533,
     "timeMonth": 533,
     "timeYear": 533,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 17
+    }
   },
   {
     "name": "cerrajerostenerife.com",
@@ -1445,17 +1605,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/cerrajerostenerife.com.ico",
     "slug": "cerrajerostenerife-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "93.55%",
+    "uptimeDay": "93.55%",
+    "uptimeWeek": "93.55%",
+    "uptimeMonth": "93.55%",
+    "uptimeYear": "93.55%",
     "time": 701,
     "timeDay": 701,
     "timeWeek": 701,
     "timeMonth": 701,
     "timeYear": 701,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 17
+    }
   },
   {
     "name": "fontanerostenerife.com",
@@ -1463,17 +1625,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/fontanerostenerife.com.ico",
     "slug": "fontanerostenerife-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "93.65%",
+    "uptimeDay": "93.65%",
+    "uptimeWeek": "93.65%",
+    "uptimeMonth": "93.65%",
+    "uptimeYear": "93.65%",
     "time": 681,
     "timeDay": 681,
     "timeWeek": 681,
     "timeMonth": 681,
     "timeYear": 681,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 16
+    }
   },
   {
     "name": "electricistastenerife.com",
@@ -1481,17 +1645,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/electricistastenerife.com.ico",
     "slug": "electricistastenerife-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "93.75%",
+    "uptimeDay": "93.75%",
+    "uptimeWeek": "93.75%",
+    "uptimeMonth": "93.75%",
+    "uptimeYear": "93.75%",
     "time": 671,
     "timeDay": 671,
     "timeWeek": 671,
     "timeMonth": 671,
     "timeYear": 671,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 16
+    }
   },
   {
     "name": "tenerifereparacionelectrodomesticos.com",
@@ -1499,17 +1665,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/tenerifereparacionelectrodomesticos.com.ico",
     "slug": "tenerifereparacionelectrodomesticos-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "93.85%",
+    "uptimeDay": "93.85%",
+    "uptimeWeek": "93.85%",
+    "uptimeMonth": "93.85%",
+    "uptimeYear": "93.85%",
     "time": 617,
     "timeDay": 617,
     "timeWeek": 617,
     "timeMonth": 617,
     "timeYear": 617,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 16
+    }
   },
   {
     "name": "santandercerrajeros.com",
@@ -1517,17 +1685,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/santandercerrajeros.com.ico",
     "slug": "santandercerrajeros-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "93.95%",
+    "uptimeDay": "93.95%",
+    "uptimeWeek": "93.95%",
+    "uptimeMonth": "93.95%",
+    "uptimeYear": "93.95%",
     "time": 769,
     "timeDay": 769,
     "timeWeek": 769,
     "timeMonth": 769,
     "timeYear": 769,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 16
+    }
   },
   {
     "name": "desatascos-santander.com",
@@ -1535,17 +1705,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/desatascos-santander.com.ico",
     "slug": "desatascos-santander-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "94.04%",
+    "uptimeDay": "94.04%",
+    "uptimeWeek": "94.04%",
+    "uptimeMonth": "94.04%",
+    "uptimeYear": "94.04%",
     "time": 697,
     "timeDay": 697,
     "timeWeek": 697,
     "timeMonth": 697,
     "timeYear": 697,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 15
+    }
   },
   {
     "name": "electricistas-santander.com",
@@ -1553,17 +1725,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/electricistas-santander.com.ico",
     "slug": "electricistas-santander-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "94.15%",
+    "uptimeDay": "94.15%",
+    "uptimeWeek": "94.15%",
+    "uptimeMonth": "94.15%",
+    "uptimeYear": "94.15%",
     "time": 670,
     "timeDay": 670,
     "timeWeek": 670,
     "timeMonth": 670,
     "timeYear": 670,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 15
+    }
   },
   {
     "name": "santanderfontaneros.com",
@@ -1571,17 +1745,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/santanderfontaneros.com.ico",
     "slug": "santanderfontaneros-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "94.24%",
+    "uptimeDay": "94.24%",
+    "uptimeWeek": "94.24%",
+    "uptimeMonth": "94.24%",
+    "uptimeYear": "94.24%",
     "time": 695,
     "timeDay": 695,
     "timeWeek": 695,
     "timeMonth": 695,
     "timeYear": 695,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 15
+    }
   },
   {
     "name": "reparacionelectrodomesticossantander.com",
@@ -1589,17 +1765,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/reparacionelectrodomesticossantander.com.ico",
     "slug": "reparacionelectrodomesticossantander-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "94.34%",
+    "uptimeDay": "94.34%",
+    "uptimeWeek": "94.34%",
+    "uptimeMonth": "94.34%",
+    "uptimeYear": "94.34%",
     "time": 620,
     "timeDay": 620,
     "timeWeek": 620,
     "timeMonth": 620,
     "timeYear": 620,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 15
+    }
   },
   {
     "name": "cerrajerosoviedo.com",
@@ -1607,17 +1785,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/cerrajerosoviedo.com.ico",
     "slug": "cerrajerosoviedo-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "95.04%",
+    "uptimeDay": "95.04%",
+    "uptimeWeek": "95.04%",
+    "uptimeMonth": "95.04%",
+    "uptimeYear": "95.04%",
     "time": 703,
     "timeDay": 703,
     "timeWeek": 703,
     "timeMonth": 703,
     "timeYear": 703,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 13
+    }
   },
   {
     "name": "fontanerosoviedo.com",
@@ -1625,17 +1805,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/fontanerosoviedo.com.ico",
     "slug": "fontanerosoviedo-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "96.93%",
+    "uptimeDay": "96.93%",
+    "uptimeWeek": "96.93%",
+    "uptimeMonth": "96.93%",
+    "uptimeYear": "96.93%",
     "time": 579,
     "timeDay": 579,
     "timeWeek": 579,
     "timeMonth": 579,
     "timeYear": 579,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 8
+    }
   },
   {
     "name": "desatascosoviedo.com",
@@ -1643,17 +1825,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/desatascosoviedo.com.ico",
     "slug": "desatascosoviedo-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "97.04%",
+    "uptimeDay": "97.04%",
+    "uptimeWeek": "97.04%",
+    "uptimeMonth": "97.04%",
+    "uptimeYear": "97.04%",
     "time": 823,
     "timeDay": 823,
     "timeWeek": 823,
     "timeMonth": 823,
     "timeYear": 823,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 8
+    }
   },
   {
     "name": "electricistasoviedo.com",
@@ -1661,17 +1845,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/electricistasoviedo.com.ico",
     "slug": "electricistasoviedo-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "98.93%",
+    "uptimeDay": "98.93%",
+    "uptimeWeek": "98.93%",
+    "uptimeMonth": "98.93%",
+    "uptimeYear": "98.93%",
     "time": 609,
     "timeDay": 609,
     "timeWeek": 609,
     "timeMonth": 609,
     "timeYear": 609,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 3
+    }
   },
   {
     "name": "reparacionelectrodomesticosoviedo.com",
@@ -1679,17 +1865,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/reparacionelectrodomesticosoviedo.com.ico",
     "slug": "reparacionelectrodomesticosoviedo-com",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.03%",
+    "uptimeDay": "99.03%",
+    "uptimeWeek": "99.03%",
+    "uptimeMonth": "99.03%",
+    "uptimeYear": "99.03%",
     "time": 835,
     "timeDay": 835,
     "timeWeek": 835,
     "timeMonth": 835,
     "timeYear": 835,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-14": 3
+    }
   },
   {
     "name": "cerrajerospamplona.com",
@@ -5242,19 +5430,19 @@
     "url": "https://cerrajerosalcasser.com",
     "icon": "https://icons.duckduckgo.com/ip3/cerrajerosalcasser.com.ico",
     "slug": "cerrajerosalcasser-com",
-    "status": "down",
-    "uptime": "97.63%",
-    "uptimeDay": "97.63%",
-    "uptimeWeek": "97.63%",
-    "uptimeMonth": "97.63%",
-    "uptimeYear": "97.63%",
-    "time": 2590,
-    "timeDay": 2590,
-    "timeWeek": 2590,
-    "timeMonth": 2590,
-    "timeYear": 2590,
+    "status": "up",
+    "uptime": "80.25%",
+    "uptimeDay": "80.25%",
+    "uptimeWeek": "80.25%",
+    "uptimeMonth": "80.25%",
+    "uptimeYear": "80.25%",
+    "time": 6089,
+    "timeDay": 6089,
+    "timeWeek": 6089,
+    "timeMonth": 6089,
+    "timeYear": 6089,
     "dailyMinutesDown": {
-      "2026-05-14": 5
+      "2026-05-14": 50
     }
   },
   {
