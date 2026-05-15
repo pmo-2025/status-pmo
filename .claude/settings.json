@@ -15,7 +15,13 @@
       "Bash(git stash *)",
       "Bash(git commit *)",
       "Bash(Start-Sleep 90)",
-      "Bash(gh issue *)"
+      "Bash(gh issue *)",
+      "Bash(gh auth *)",
+      "Bash(gh api *)",
+      "Bash(curl -x http://95.217.235.211:3128 https://google.com -I --max-time 10)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\Fernando\\Desktop"
     ]
   }
 }
