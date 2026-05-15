@@ -24,7 +24,7 @@ on:
 jobs:
   release:
     name: Check status
-    runs-on: hetzner
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -38,3 +38,5 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
+          HTTP_PROXY: http://95.217.235.211:3128
+          HTTPS_PROXY: http://95.217.235.211:3128
