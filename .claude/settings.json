@@ -7,7 +7,15 @@
       "Bash(python -c \"import requests; print\\('requests OK'\\)\")",
       "Bash(git commit -m ' *)",
       "Bash(gh run *)",
-      "WebFetch(domain:upptime.js.org)"
+      "WebFetch(domain:upptime.js.org)",
+      "Bash(gh secret *)",
+      "Bash(gh workflow *)",
+      "Bash(Start-Sleep -Seconds 60)",
+      "Bash(git pull *)",
+      "Bash(git stash *)",
+      "Bash(git commit *)",
+      "Bash(Start-Sleep 90)",
+      "Bash(gh issue *)"
     ]
   }
 }
