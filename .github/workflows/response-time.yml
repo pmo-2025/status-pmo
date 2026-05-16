@@ -40,18 +40,100 @@ jobs:
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
           HTTP_PROXY: ${{ secrets.PROXY_URL }}
           HTTPS_PROXY: ${{ secrets.PROXY_URL }}
-      - name: Generar resumen de sitios caidos
+      - name: Generar resumen HTML
         if: always()
         id: resumen
         env:
-          GH_PAT: ${{ secrets.GH_PAT || github.token }}
+          GH_TOKEN: ${{ secrets.GH_PAT || github.token }}
         run: |
-          CAIDOS=$(gh issue list --repo ${{ github.repository }} --state open --label "status: down" --json title --jq '.[].title' | head -20 || echo "")
-          TOTAL_CAIDOS=$(gh issue list --repo ${{ github.repository }} --state open --label "status: down" --json title --jq 'length' || echo "0")
-          echo "total=$TOTAL_CAIDOS" >> $GITHUB_OUTPUT
-          echo "lista<<EOF" >> $GITHUB_OUTPUT
-          echo "$CAIDOS" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          pip install pyyaml -q 2>/dev/null
+          python3 << 'PYEOF'
+          import json, os, glob, subprocess, concurrent.futures, socket, ssl, datetime, yaml
+
+          repo = os.environ['GITHUB_REPOSITORY']
+
+          result = subprocess.run(
+              ['gh', 'issue', 'list', '--repo', repo, '--state', 'open',
+               '--label', 'status: down', '--json', 'title', '--jq', '.[].title'],
+              capture_output=True, text=True)
+          down_sites = [l for l in result.stdout.strip().split('\n') if l]
+          down_count = len(down_sites)
+
+          with open('.upptimerc.yml') as f:
+              config = yaml.safe_load(f)
+          sites = config.get('sites', [])
+          total = len(sites)
+          ok_count = total - down_count
+
+          rts, slow = [], []
+          for f in glob.glob('api/*/response-time.json'):
+              try:
+                  data = json.load(open(f))
+                  rt = int(''.join(c for c in data.get('message','').split(' ')[0] if c.isdigit()))
+                  site = f.split('/')[1]
+                  rts.append(rt)
+                  if rt > 2000:
+                      slow.append((site.replace('-','.'), rt))
+              except: pass
+          avg_rt = sum(rts) // len(rts) if rts else 0
+          slow.sort(key=lambda x: -x[1])
+
+          def check_ssl(site):
+              name, url = site['name'], site['url']
+              if not url.startswith('https://'): return None
+              domain = url.replace('https://','').split('/')[0]
+              try:
+                  ctx = ssl.create_default_context()
+                  s = socket.create_connection((domain, 443), timeout=5)
+                  ss = ctx.wrap_socket(s, server_hostname=domain)
+                  cert = ss.getpeercert(); ss.close()
+                  expiry = datetime.datetime.strptime(cert['notAfter'], '%b %d %H:%M:%S %Y %Z')
+                  days = (expiry - datetime.datetime.now()).days
+                  if 0 < days < 30: return (name, days)
+              except: pass
+              return None
+
+          ssl_exp = []
+          with concurrent.futures.ThreadPoolExecutor(max_workers=50) as ex:
+              for r in ex.map(check_ssl, sites):
+                  if r: ssl_exp.append(r)
+          ssl_exp.sort(key=lambda x: x[1])
+
+          date_str = datetime.datetime.now().strftime('%d/%m/%Y %H:%M')
+          down_li = ''.join(f'<li style="margin:3px 0">{s}</li>' for s in down_sites[:30]) or '<li>Ninguno ✓</li>'
+          slow_li = ''.join(f'<li style="margin:3px 0"><b>{s}</b>: {rt}ms</li>' for s,rt in slow[:20]) or '<li>Ninguno ✓</li>'
+          ssl_li = ''.join(f'<li style="margin:3px 0"><b>{n}</b>: {d} días restantes</li>' for n,d in ssl_exp[:20]) or '<li>Sin alertas ✓</li>'
+
+          html = f"""<div style="font-family:Arial,sans-serif;max-width:620px;margin:0 auto;padding:20px">
+          <h2 style="color:#1e293b;margin-bottom:20px">Upptime — Resumen diario {date_str}</h2>
+          <div style="display:flex;gap:12px;margin-bottom:24px">
+            <div style="background:#16a34a;border-radius:12px;padding:24px;flex:1;text-align:center">
+              <div style="font-size:72px;font-weight:900;color:white;line-height:1">{ok_count}</div>
+              <div style="font-size:16px;color:#dcfce7;margin-top:4px">Sitios OK</div>
+            </div>
+            <div style="background:#dc2626;border-radius:12px;padding:24px;flex:1;text-align:center">
+              <div style="font-size:72px;font-weight:900;color:white;line-height:1">{down_count}</div>
+              <div style="font-size:16px;color:#fee2e2;margin-top:4px">Caídos</div>
+            </div>
+            <div style="background:#2563eb;border-radius:12px;padding:24px;flex:1;text-align:center">
+              <div style="font-size:72px;font-weight:900;color:white;line-height:1">{avg_rt}</div>
+              <div style="font-size:16px;color:#dbeafe;margin-top:4px">ms promedio</div>
+            </div>
+          </div>
+          <h3 style="color:#dc2626">🔴 Sitios caídos ({down_count})</h3>
+          <ul style="background:#fef2f2;border-radius:8px;padding:10px 10px 10px 26px;margin-bottom:16px">{down_li}</ul>
+          <h3 style="color:#ea580c">🟠 Lentos &gt;2s ({len(slow)})</h3>
+          <ul style="background:#fff7ed;border-radius:8px;padding:10px 10px 10px 26px;margin-bottom:16px">{slow_li}</ul>
+          <h3 style="color:#d97706">🟡 SSL próximo a expirar ({len(ssl_exp)})</h3>
+          <ul style="background:#fffbeb;border-radius:8px;padding:10px 10px 10px 26px">{ssl_li}</ul>
+          </div>"""
+
+          with open(os.environ.get('GITHUB_OUTPUT',''), 'a') as out:
+              out.write(f"down_count={down_count}\n")
+              out.write("html<<HTMLEOF\n")
+              out.write(html)
+              out.write("\nHTMLEOF\n")
+          PYEOF
       - name: Enviar resumen por email
         if: always()
         uses: dawidd6/action-send-mail@v3
@@ -60,15 +142,7 @@ jobs:
           server_port: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PORT }}
           username: ${{ secrets.NOTIFICATION_EMAIL_SMTP_USERNAME }}
           password: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD }}
-          subject: "Upptime - ${{ steps.resumen.outputs.total }} sitios caidos"
+          subject: "Upptime — ${{ steps.resumen.outputs.down_count }} sitios caídos"
           to: ${{ secrets.NOTIFICATION_EMAIL_TO }}
           from: ${{ secrets.NOTIFICATION_EMAIL_FROM }}
-          body: |
-            Resumen del check diario de uptime.
-
-            Sitios caidos: ${{ steps.resumen.outputs.total }}
-
-            ${{ steps.resumen.outputs.lista }}
-
-            Ver todos los issues:
-            https://github.com/${{ github.repository }}/issues?q=label%3A%22status%3A+down%22+is%3Aopen
+          html_body: ${{ steps.resumen.outputs.html }}
