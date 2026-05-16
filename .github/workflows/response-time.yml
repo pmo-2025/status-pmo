@@ -133,6 +133,23 @@ jobs:
               out.write("html<<HTMLEOF\n")
               out.write(html)
               out.write("\nHTMLEOF\n")
+          import json as _json
+          slack_blocks = {"blocks": [
+              {"type": "header", "text": {"type": "plain_text", "text": f"Upptime — Resumen {date_str}"}},
+              {"type": "section", "fields": [
+                  {"type": "mrkdwn", "text": f"*✅ OK*\n{ok_count}"},
+                  {"type": "mrkdwn", "text": f"*🔴 Caídos*\n{down_count}"},
+                  {"type": "mrkdwn", "text": f"*⏱️ Promedio*\n{avg_rt}ms"}
+              ]}
+          ]}
+          if down_sites:
+              slack_blocks["blocks"].append({"type": "section", "text": {"type": "mrkdwn", "text": "*🔴 Caídos:*\n" + "\n".join(f"• {s}" for s in down_sites[:20])}})
+          if slow:
+              slack_blocks["blocks"].append({"type": "section", "text": {"type": "mrkdwn", "text": f"*🟠 Lentos >2s ({len(slow)}):*\n" + "\n".join(f"• {s}: {rt}ms" for s,rt in slow[:10])}})
+          if ssl_exp:
+              slack_blocks["blocks"].append({"type": "section", "text": {"type": "mrkdwn", "text": f"*🟡 SSL próximo ({len(ssl_exp)}):*\n" + "\n".join(f"• {n}: {d} días" for n,d in ssl_exp[:10])}})
+          with open('/tmp/slack_payload.json', 'w') as sf:
+              _json.dump(slack_blocks, sf)
           PYEOF
       - name: Enviar resumen por email
         if: always()
@@ -143,6 +160,12 @@ jobs:
           username: ${{ secrets.NOTIFICATION_EMAIL_SMTP_USERNAME }}
           password: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD }}
           subject: "Upptime — ${{ steps.resumen.outputs.down_count }} sitios caídos"
-          to: ${{ secrets.NOTIFICATION_EMAIL_TO }}
+          to: ${{ secrets.NOTIFICATION_EMAIL_TO }},agenciapmonline2@gmail.com
           from: ${{ secrets.NOTIFICATION_EMAIL_FROM }}
           html_body: ${{ steps.resumen.outputs.html }}
+      - name: Enviar resumen a Slack
+        if: always()
+        run: |
+          curl -s -X POST "${{ secrets.SLACK_WEBHOOK_URL }}" \
+            -H "Content-Type: application/json" \
+            -d @/tmp/slack_payload.json
