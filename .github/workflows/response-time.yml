@@ -40,6 +40,18 @@ jobs:
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
           HTTP_PROXY: ${{ secrets.PROXY_URL }}
           HTTPS_PROXY: ${{ secrets.PROXY_URL }}
+      - name: Generar resumen de sitios caidos
+        if: always()
+        id: resumen
+        env:
+          GH_PAT: ${{ secrets.GH_PAT || github.token }}
+        run: |
+          CAIDOS=$(gh issue list --repo ${{ github.repository }} --state open --label "status: down" --json title --jq '.[].title' | head -20 || echo "")
+          TOTAL_CAIDOS=$(gh issue list --repo ${{ github.repository }} --state open --label "status: down" --json title --jq 'length' || echo "0")
+          echo "total=$TOTAL_CAIDOS" >> $GITHUB_OUTPUT
+          echo "lista<<EOF" >> $GITHUB_OUTPUT
+          echo "$CAIDOS" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
       - name: Enviar resumen por email
         if: always()
         uses: dawidd6/action-send-mail@v3
@@ -48,11 +60,15 @@ jobs:
           server_port: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PORT }}
           username: ${{ secrets.NOTIFICATION_EMAIL_SMTP_USERNAME }}
           password: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD }}
-          subject: "Upptime - Resumen checks ${{ github.run_started_at }}"
+          subject: "Upptime - ${{ steps.resumen.outputs.total }} sitios caidos"
           to: ${{ secrets.NOTIFICATION_EMAIL_TO }}
           from: ${{ secrets.NOTIFICATION_EMAIL_FROM }}
           body: |
-            El check de uptime ha completado correctamente.
+            Resumen del check diario de uptime.
 
-            Ver resultados completos:
-            https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            Sitios caidos: ${{ steps.resumen.outputs.total }}
+
+            ${{ steps.resumen.outputs.lista }}
+
+            Ver todos los issues:
+            https://github.com/${{ github.repository }}/issues?q=label%3A%22status%3A+down%22+is%3Aopen
