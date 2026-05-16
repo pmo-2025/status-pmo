@@ -18,7 +18,10 @@
       "Bash(gh issue *)",
       "Bash(gh auth *)",
       "Bash(gh api *)",
-      "Bash(curl -x http://95.217.235.211:3128 https://google.com -I --max-time 10)"
+      "Bash(curl -x http://95.217.235.211:3128 https://google.com -I --max-time 10)",
+      "Bash(curl -x \"http://agenciapmonline%40gmail.com:***REDACTED***@isp.oxylabs.io:8006\" https://google.com -I --max-time 15)",
+      "Bash(curl -x \"http://agenciapmonline:***REDACTED***@isp.oxylabs.io:8006\" https://google.com -I --max-time 15)",
+      "Bash(curl -x \"http://agenciapmonline_Pvcda:***REDACTED***@isp.oxylabs.io:8006\" https://google.com -I --max-time 15)"
     ],
     "additionalDirectories": [
       "c:\\Users\\Fernando\\Desktop"
