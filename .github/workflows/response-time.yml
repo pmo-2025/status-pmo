@@ -40,3 +40,19 @@ jobs:
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
           HTTP_PROXY: ${{ secrets.PROXY_URL }}
           HTTPS_PROXY: ${{ secrets.PROXY_URL }}
+      - name: Enviar resumen por email
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.NOTIFICATION_EMAIL_SMTP_HOST }}
+          server_port: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PORT }}
+          username: ${{ secrets.NOTIFICATION_EMAIL_SMTP_USERNAME }}
+          password: ${{ secrets.NOTIFICATION_EMAIL_SMTP_PASSWORD }}
+          subject: "Upptime - Resumen checks ${{ github.run_started_at }}"
+          to: ${{ secrets.NOTIFICATION_EMAIL_TO }}
+          from: ${{ secrets.NOTIFICATION_EMAIL_FROM }}
+          body: |
+            El check de uptime ha completado correctamente.
+
+            Ver resultados completos:
+            https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
