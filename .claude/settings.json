@@ -18,7 +18,8 @@
       "Bash(gh issue *)",
       "Bash(gh auth *)",
       "Bash(gh api *)",
-      "Bash(curl -x http://95.217.235.211:3128 https://google.com -I --max-time 10)"
+      "Bash(curl -x http://95.217.235.211:3128 https://google.com -I --max-time 10)",
+      "PowerShell(cd \"c:\\\\Users\\\\Fernando\\\\Desktop\\\\CLAUDECODE\\\\status-pmo\"; $downSites = @\\(\\); Get-ChildItem api -Recurse -Filter 'uptime.json' | ForEach-Object { $content = Get-Content $_.FullName | ConvertFrom-Json; if \\($content.status -ne 'up'\\) { $downSites += \"$\\($_.Directory.Name\\) - Status: $\\($content.status\\)\" } }; if \\($downSites.Count -eq 0\\) { Write-Host \"No hay sitios caidos segun los datos locales\" } else { Write-Host \"Sitios caidos \\($\\($downSites.Count\\)\\):\"; $downSites })"
     ],
     "additionalDirectories": [
       "c:\\Users\\Fernando\\Desktop"
