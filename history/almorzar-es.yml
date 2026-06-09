@@ -1,7 +1,7 @@
 url: https://almorzar.es
-status: up
-code: 200
-responseTime: 2778
-lastUpdated: 2026-06-09T07:15:47.454Z
+status: down
+code: 415
+responseTime: 544
+lastUpdated: 2026-06-09T08:11:50.012Z
 startTime: 2026-05-14T17:37:46.259Z
 generator: Upptime <https://github.com/upptime/upptime>
