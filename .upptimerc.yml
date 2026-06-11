@@ -718,10 +718,6 @@ sites:
   - name: "xn--cerrajerosrafelbuol-c4b.com"
     url: https://xn--cerrajerosrafelbuol-c4b.com
 
-notifications:
-  createIssue: false
-  closeIssue: false
-
 status-website:
   # Add your custom domain name, or remove the `cname` line if you do not have a domain
   # Uncomment the `baseUrl` line if you do not have a custom domain and add your repo name there
