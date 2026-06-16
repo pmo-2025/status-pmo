@@ -1,7 +1,7 @@
 url: http://pmasters.es
-status: up
-code: 200
-responseTime: 3369
-lastUpdated: 2026-06-15T19:32:55.970Z
+status: down
+code: 415
+responseTime: 405
+lastUpdated: 2026-06-16T07:57:58.307Z
 startTime: 2026-05-14T17:37:27.693Z
 generator: Upptime <https://github.com/upptime/upptime>
