@@ -40,3 +40,34 @@ jobs:
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
           HTTP_PROXY: ${{ secrets.PROXY_URL }}
           HTTPS_PROXY: ${{ secrets.PROXY_URL }}
+      - name: Cerrar issues de webs que ya están online
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT || github.token }}
+        run: |
+          python3 << 'PYEOF'
+          import subprocess, glob, yaml, os
+
+          repo = os.environ['GITHUB_REPOSITORY']
+
+          for path in glob.glob('history/*.yml'):
+              try:
+                  with open(path) as f:
+                      data = yaml.safe_load(f)
+              except Exception:
+                  continue
+              if data.get('status') != 'up':
+                  continue
+              slug = os.path.basename(path).replace('.yml', '')
+              result = subprocess.run(
+                  ['gh', 'issue', 'list', '--repo', repo, '--state', 'open',
+                   '--label', slug, '--json', 'number', '--jq', '.[].number'],
+                  capture_output=True, text=True)
+              for num in result.stdout.strip().splitlines():
+                  if num:
+                      subprocess.run(
+                          ['gh', 'issue', 'close', num, '--repo', repo,
+                           '--comment', 'Cerrado automáticamente: el sitio está online según el último escaneo.'],
+                          capture_output=True)
+                      print(f'Cerrado issue #{num} ({slug})')
+          PYEOF
