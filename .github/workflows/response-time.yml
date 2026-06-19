@@ -55,7 +55,7 @@ jobs:
 
           result = subprocess.run(
               ['gh', 'issue', 'list', '--repo', repo, '--state', 'open',
-               '--label', 'status: down', '--json', 'title', '--jq', '.[].title'],
+               '--label', 'status', '--json', 'title', '--jq', '.[].title'],
               capture_output=True, text=True)
           down_sites = [l for l in result.stdout.strip().split('\n') if l]
           down_count = len(down_sites)
