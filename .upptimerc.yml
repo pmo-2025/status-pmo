@@ -347,8 +347,6 @@ sites:
     url: https://customgraf.es
   - name: "abriryrecuperar.com"
     url: https://abriryrecuperar.com
-  - name: "paramoto.es"
-    url: https://paramoto.es
   - name: "mezclaquetemezcla.com"
     url: https://mezclaquetemezcla.com
   - name: "todo-pesca.com"
@@ -387,8 +385,6 @@ sites:
     url: https://mundo-sims.com
   - name: "moto-noticias.com"
     url: https://moto-noticias.com
-  - name: "almorzar.es"
-    url: https://almorzar.es
   - name: "ecoparque.es"
     url: https://ecoparque.es
   - name: "turispanish.com"
