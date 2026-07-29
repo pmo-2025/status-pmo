@@ -1,11 +1,17 @@
 name: Escaneo rapido
 
-# Detección real cada 10 minutos. Upptime (Uptime CI) tarda ~10 min por pasada
-# y GitHub acaba ejecutándolo una vez cada 1-3 h, así que se le escapan los
-# cortes de pocos minutos. Este job hace lo mismo en paralelo en ~1-2 min.
+# Detección real cada ~9 minutos.
+#
+# El escaneo en sí tarda 25 s, pero un cron "*/10" NO se cumple: GitHub
+# throttlea los schedules y cuanto más frecuente es el cron, más ejecuciones
+# se salta (medido el 29-jul con este mismo workflow: disparos a las 13:06 y
+# 15:17, o sea cada 2 h). Por eso el cron es cada 30 min —espaciado, GitHub lo
+# respeta mucho mejor— y cada ejecución hace 6 pasadas separadas 9 min hasta
+# cubrir ~54 min. Con la cola de concurrency el siguiente run arranca al
+# terminar este, así que la cobertura no se corta.
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "0,30 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -16,7 +22,7 @@ jobs:
   escanear:
     name: Comprobar todas las webs
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 70
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,22 +32,26 @@ jobs:
       - name: Instalar dependencias
         run: pip install --quiet requests pyyaml
 
-      - name: Escanear
+      - name: Escanear cada 9 minutos durante ~1 hora
         env:
           PROXY_URL: ${{ secrets.PROXY_URL }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: python3 monitor/escaneo.py
-
-      - name: Guardar cambios de estado
-        if: always()
         run: |
           git config user.name "Monitor PMO"
           git config user.email "monitor@users.noreply.github.com"
-          git add monitor/estado.json monitor/incidencias.log
-          if git diff --cached --quiet; then
-            echo "sin cambios de estado"
-          else
-            git commit -m "estado: actualizar monitor [skip ci]"
-            git pull --rebase --autostash origin master
-            git push
-          fi
+          for pasada in 1 2 3 4 5 6; do
+            echo "=== pasada $pasada de 6 ==="
+            python3 monitor/escaneo.py || echo "la pasada $pasada fallo, se sigue"
+
+            git add monitor/estado.json monitor/incidencias.log
+            if git diff --cached --quiet; then
+              echo "sin cambios de estado"
+            else
+              git commit -m "estado: actualizar monitor [skip ci]"
+              # Uptime CI commitea en paralelo: rebase y un reintento
+              git pull --rebase --autostash -q origin master
+              git push -q || { sleep 15; git pull --rebase --autostash -q origin master && git push -q; }
+            fi
+
+            if [ "$pasada" -lt 6 ]; then sleep 540; fi
+          done

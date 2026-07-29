@@ -34,7 +34,6 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
-          fetch-depth: 0 # sin historial completo los % de uptime salen a 0
       - name: Check endpoint status
         uses: upptime/uptime-monitor@v1.41.3
         with:
