@@ -349,8 +349,6 @@ sites:
     url: https://abriryrecuperar.com
   - name: "mezclaquetemezcla.com"
     url: https://mezclaquetemezcla.com
-  - name: "todo-pesca.com"
-    url: https://todo-pesca.com
   - name: "hydrologicgroup.es"
     url: https://hydrologicgroup.es
   - name: "telas-mexico.mx"
@@ -359,10 +357,6 @@ sites:
     url: https://genealogico.es
   - name: "sondeled.es"
     url: https://sondeled.es
-  - name: "tubelleza.es"
-    url: https://tubelleza.es
-  - name: "piemaproteccion.es"
-    url: https://piemaproteccion.es
   - name: "comando-app.com"
     url: https://comando-app.com
   - name: "avicolamauro2020.it"
@@ -371,8 +365,6 @@ sites:
     url: http://pmasters.es
   - name: "teoremas.net"
     url: https://teoremas.net
-  - name: "fiestasde.es"
-    url: https://fiestasde.es
   - name: "degomaeva.com"
     url: https://degomaeva.com
   - name: "opositan.com"
@@ -381,8 +373,6 @@ sites:
     url: https://organigrama10.com
   - name: "montar10.com"
     url: https://montar10.com
-  - name: "turispanish.com"
-    url: https://turispanish.com
   - name: "autonomos10.com"
     url: https://autonomos10.com
   - name: "robotica10.com"
