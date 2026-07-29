@@ -1,0 +1,47 @@
+name: Escaneo rapido
+
+# Detección real cada 10 minutos. Upptime (Uptime CI) tarda ~10 min por pasada
+# y GitHub acaba ejecutándolo una vez cada 1-3 h, así que se le escapan los
+# cortes de pocos minutos. Este job hace lo mismo en paralelo en ~1-2 min.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: escaneo-rapido
+  cancel-in-progress: false
+
+jobs:
+  escanear:
+    name: Comprobar todas las webs
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT || github.token }}
+
+      - name: Instalar dependencias
+        run: pip install --quiet requests pyyaml
+
+      - name: Escanear
+        env:
+          PROXY_URL: ${{ secrets.PROXY_URL }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: python3 monitor/escaneo.py
+
+      - name: Guardar cambios de estado
+        if: always()
+        run: |
+          git config user.name "Monitor PMO"
+          git config user.email "monitor@users.noreply.github.com"
+          git add monitor/estado.json monitor/incidencias.log
+          if git diff --cached --quiet; then
+            echo "sin cambios de estado"
+          else
+            git commit -m "estado: actualizar monitor [skip ci]"
+            git pull --rebase --autostash origin master
+            git push
+          fi

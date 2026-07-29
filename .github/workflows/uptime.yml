@@ -17,8 +17,10 @@
 name: Uptime CI
 on:
   schedule:
-    # cada 10 min: detecta caídas de hosting casi en tiempo real (repo público = Actions ilimitados)
-    - cron: "*/10 * * * *"
+    # cada 30 min: la pasada dura ~10 min, con */10 los disparos se pisaban y
+    # GitHub los descartaba (acababa corriendo 1 vez cada 1-3 h). La detección
+    # rápida la hace ahora .github/workflows/escaneo-rapido.yml cada 10 min.
+    - cron: "*/30 * * * *"
   repository_dispatch:
     types: [uptime]
   workflow_dispatch:
@@ -32,6 +34,7 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
+          fetch-depth: 0 # sin historial completo los % de uptime salen a 0
       - name: Check endpoint status
         uses: upptime/uptime-monitor@v1.41.3
         with:
@@ -47,9 +50,26 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_PAT || github.token }}
         run: |
           python3 << 'PYEOF'
-          import subprocess, glob, yaml, os
+          import subprocess, glob, json, yaml, os
 
           repo = os.environ['GITHUB_REPOSITORY']
+
+          # Una sola llamada para todos los issues abiertos: antes se consultaba
+          # uno por sitio (357 llamadas, ~3 min del total del job).
+          abiertos = subprocess.run(
+              ['gh', 'issue', 'list', '--repo', repo, '--state', 'open',
+               '--limit', '500', '--json', 'number,labels'],
+              capture_output=True, text=True)
+          try:
+              issues = json.loads(abiertos.stdout or '[]')
+          except ValueError:
+              print('No se pudo leer la lista de issues abiertos')
+              issues = []
+
+          por_slug = {}
+          for issue in issues:
+              for label in issue.get('labels', []):
+                  por_slug.setdefault(label['name'], []).append(issue['number'])
 
           for path in glob.glob('history/*.yml'):
               try:
@@ -60,15 +80,10 @@ jobs:
               if data.get('status') != 'up':
                   continue
               slug = os.path.basename(path).replace('.yml', '')
-              result = subprocess.run(
-                  ['gh', 'issue', 'list', '--repo', repo, '--state', 'open',
-                   '--label', slug, '--json', 'number', '--jq', '.[].number'],
-                  capture_output=True, text=True)
-              for num in result.stdout.strip().splitlines():
-                  if num:
-                      subprocess.run(
-                          ['gh', 'issue', 'close', num, '--repo', repo,
-                           '--comment', 'Cerrado automáticamente: el sitio está online según el último escaneo.'],
-                          capture_output=True)
-                      print(f'Cerrado issue #{num} ({slug})')
+              for num in por_slug.get(slug, []):
+                  subprocess.run(
+                      ['gh', 'issue', 'close', str(num), '--repo', repo,
+                       '--comment', 'Cerrado automáticamente: el sitio está online según el último escaneo.'],
+                      capture_output=True)
+                  print(f'Cerrado issue #{num} ({slug})')
           PYEOF
