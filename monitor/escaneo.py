@@ -26,7 +26,11 @@ CONCURRENCIA = 25
 TIMEOUT = 20
 INTENTOS = 3           # 3 fallos seguidos antes de dar un sitio por caído
 ESPERA_REINTENTO = 25  # segundos entre intentos
-MIN_BYTES = 500        # una respuesta más corta es una página de error
+# Una respuesta más corta que esto no es una web: es un parking, un
+# defaultwebpage.cgi o un WordPress reventado. Medido el 29-jul sobre los 347
+# sitios: los rotos daban 114-163 bytes y el sitio sano más pequeño 28.745,
+# así que 5 KB deja margen de sobra por ambos lados.
+MIN_BYTES = 5000
 # Si cae más de este % de la lista (y al menos MIN_FALLO_MASIVO sitios), el
 # problema es del runner/proxy, no de las webs: se avisa una sola vez en vez de
 # escupir 300 falsas caídas, como pasó en julio con el proxy caducado.
