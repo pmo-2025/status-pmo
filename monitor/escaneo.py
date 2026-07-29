@@ -41,15 +41,27 @@ MIN_FALLO_MASIVO = 10
 UA = "Mozilla/5.0 (compatible; MonitorPMO/1.0; +https://github.com/pmo-2025/status-pmo)"
 
 
-# Redirecciones a otro dominio que son intencionadas y no hay que avisar.
-# Formato: dominio de destino sin www (p. ej. "midominio.com").
-BLANCA = set()
+# Redirecciones a otro dominio que son intencionadas y no hay que avisar,
+# como pares (origen, destino) sin www.
+BLANCA = {
+    ("abriryrecuperar.com", "abriryrecuperar.es"),
+}
 
 
 def host(url):
-    """Dominio de una URL, sin www ni puerto."""
-    h = urlparse(url).hostname or ""
-    return h[4:] if h.startswith("www.") else h
+    """Dominio de una URL, sin www, en punycode.
+
+    Los dominios con ñ o tildes redirigen a su propia forma codificada
+    (desatascos-coruña.com -> xn--desatascos-corua-lub.com): es la misma web,
+    así que hay que comparar las dos en el mismo formato.
+    """
+    h = (urlparse(url).hostname or "").lower()
+    if h.startswith("www."):
+        h = h[4:]
+    try:
+        return h.encode("idna").decode("ascii")
+    except (UnicodeError, ValueError):
+        return h
 
 
 def proxies():
@@ -83,8 +95,8 @@ def comprobar(url, sesion):
     # WordPress comprometido con redirección inyectada. Responde 200 y con
     # contenido de sobra, así que sin esto pasa por sano: hydrologicgroup.es
     # llevaba desde el 8-jul redirigiendo a una web de póker.
-    destino = host(r.url)
-    if destino != host(url) and destino not in BLANCA:
+    origen, destino = host(url), host(r.url)
+    if destino != origen and (origen, destino) not in BLANCA:
         return False, f"redirige a {destino} · revisar si está secuestrado"
 
     return True, f"HTTP {r.status_code} · {tam} bytes · {r.elapsed.total_seconds():.1f}s"
