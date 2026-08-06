@@ -28,3 +28,4 @@
 2026-08-06T01:11:07+00:00	CAIDA	reparacionelectrodomesticoslaspalmas.com	error de conexión (ProxyError)
 2026-08-06T01:21:24+00:00	RECUPERADO	reparacionelectrodomesticoslaspalmas.com	caído desde 2026-08-06T01:11:07+00:00
 2026-08-06T04:08:30+00:00	CAIDA	cerrajeroaldaia.es	HTTP 200 · respuesta vacía (0 bytes)
+2026-08-06T12:24:47+00:00	RECUPERADO	cerrajeroaldaia.es	caído desde 2026-08-06T04:08:30+00:00
