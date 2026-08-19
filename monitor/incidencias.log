@@ -67,3 +67,11 @@
 2026-08-19T05:33:19+00:00	CAIDA	cerrajerourgentecastellon.com	sin respuesta en 20s
 2026-08-19T05:44:30+00:00	RECUPERADO	cerrajerourgentecastellon.com	caído desde 2026-08-19T05:33:19+00:00
 2026-08-19T06:36:24+00:00	CAIDA	cerrajerosalcasser.com	sin respuesta en 20s
+2026-08-19T07:33:04+00:00	CAIDA	fontaneros-toledo.com	error de conexión (ProxyError)
+2026-08-19T07:33:04+00:00	CAIDA	cerrajerosmallorca.top	error de conexión (ProxyError)
+2026-08-19T07:33:04+00:00	CAIDA	cerrajeroquartdepoblet.com	error de conexión (ProxyError)
+2026-08-19T07:33:04+00:00	CAIDA	cerrajerosalboraya.com	error de conexión (ProxyError)
+2026-08-19T07:33:04+00:00	CAIDA	cerrajeroscatarroja.com	error de conexión (ProxyError)
+2026-08-19T07:33:04+00:00	CAIDA	cerrajerossedavi.com	error de conexión (ProxyError)
+2026-08-19T07:33:04+00:00	CAIDA	persianasyautomatismos.com	error de conexión (ProxyError)
+2026-08-19T07:33:04+00:00	RECUPERADO	cerrajerosalcasser.com	caído desde 2026-08-19T06:36:24+00:00
