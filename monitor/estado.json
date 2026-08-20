@@ -1,6 +1,6 @@
 {
  "agrupacioncerrajera.es": {
-  "detalle": "HTTP 200 · 214781 bytes · 0.9s",
+  "detalle": "HTTP 200 · 214781 bytes · 0.8s",
   "estado": "ok"
  },
  "alicantecerrajeros.com": {
@@ -12,23 +12,23 @@
   "estado": "ok"
  },
  "alicanteelectricistas.com": {
-  "detalle": "HTTP 200 · 204923 bytes · 0.8s",
+  "detalle": "HTTP 200 · 204923 bytes · 1.1s",
   "estado": "ok"
  },
  "alicantefontaneros.com": {
-  "detalle": "HTTP 200 · 99791 bytes · 0.8s",
+  "detalle": "HTTP 200 · 99791 bytes · 0.7s",
   "estado": "ok"
  },
  "alicantereparacionelectrodomesticos.com": {
-  "detalle": "HTTP 200 · 100922 bytes · 0.8s",
+  "detalle": "HTTP 200 · 100922 bytes · 0.9s",
   "estado": "ok"
  },
  "arregla2.com": {
-  "detalle": "HTTP 200 · 118360 bytes · 0.7s",
+  "detalle": "HTTP 200 · 118360 bytes · 0.8s",
   "estado": "ok"
  },
  "autonomos24h.es": {
-  "detalle": "HTTP 200 · 118051 bytes · 0.6s",
+  "detalle": "HTTP 200 · 118051 bytes · 0.7s",
   "estado": "ok"
  },
  "barcelonacerrajeros.es": {
@@ -40,7 +40,7 @@
   "estado": "ok"
  },
  "bilbaoreparacionelectrodomesticos.com": {
-  "detalle": "HTTP 200 · 86645 bytes · 0.8s",
+  "detalle": "HTTP 200 · 86645 bytes · 0.7s",
   "estado": "ok"
  },
  "cerrajeriadevalencia.com": {
@@ -48,15 +48,15 @@
   "estado": "ok"
  },
  "cerrajeriavalencia.es": {
-  "detalle": "HTTP 200 · 174320 bytes · 1.0s",
+  "detalle": "HTTP 200 · 174320 bytes · 1.7s",
   "estado": "ok"
  },
  "cerrajero-de-valencia.com": {
-  "detalle": "HTTP 200 · 155502 bytes · 2.3s",
+  "detalle": "HTTP 200 · 155502 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajero-girona.com": {
-  "detalle": "HTTP 200 · 112226 bytes · 0.6s",
+  "detalle": "HTTP 200 · 112226 bytes · 0.8s",
   "estado": "ok"
  },
  "cerrajeroalaquas.com": {
@@ -68,15 +68,15 @@
   "estado": "ok"
  },
  "cerrajeroalbal.es": {
-  "detalle": "HTTP 200 · 99775 bytes · 2.3s",
+  "detalle": "HTTP 200 · 99775 bytes · 2.4s",
   "estado": "ok"
  },
  "cerrajeroalboraya.com": {
-  "detalle": "HTTP 200 · 49688 bytes · 2.0s",
+  "detalle": "HTTP 200 · 49688 bytes · 2.1s",
   "estado": "ok"
  },
  "cerrajeroalboraya.es": {
-  "detalle": "HTTP 200 · 51267 bytes · 0.7s",
+  "detalle": "HTTP 200 · 51267 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajeroaldaia.es": {
@@ -84,7 +84,7 @@
   "estado": "ok"
  },
  "cerrajeroalfafar.com": {
-  "detalle": "HTTP 200 · 46559 bytes · 2.4s",
+  "detalle": "HTTP 200 · 46559 bytes · 2.2s",
   "estado": "ok"
  },
  "cerrajeroalfafar.es": {
@@ -92,15 +92,15 @@
   "estado": "ok"
  },
  "cerrajeroalmassera.es": {
-  "detalle": "HTTP 200 · 77895 bytes · 2.2s",
+  "detalle": "HTTP 200 · 77895 bytes · 2.0s",
   "estado": "ok"
  },
  "cerrajeroalzira.com": {
-  "detalle": "HTTP 200 · 64269 bytes · 2.2s",
+  "detalle": "HTTP 200 · 64269 bytes · 2.1s",
   "estado": "ok"
  },
  "cerrajerobenetusser.com": {
-  "detalle": "HTTP 200 · 81011 bytes · 8.9s",
+  "detalle": "HTTP 200 · 81011 bytes · 2.4s",
   "estado": "ok"
  },
  "cerrajerobetera.com": {
@@ -108,7 +108,7 @@
   "estado": "ok"
  },
  "cerrajerobetera.es": {
-  "detalle": "HTTP 200 · 65664 bytes · 2.0s",
+  "detalle": "HTTP 200 · 65622 bytes · 2.1s",
   "estado": "ok"
  },
  "cerrajeroburjassot.com": {
@@ -116,7 +116,7 @@
   "estado": "ok"
  },
  "cerrajerocanetdeberenguer.es": {
-  "detalle": "HTTP 200 · 72629 bytes · 2.1s",
+  "detalle": "HTTP 200 · 72629 bytes · 2.0s",
   "estado": "ok"
  },
  "cerrajerocarlet.com": {
@@ -124,11 +124,11 @@
   "estado": "ok"
  },
  "cerrajerocatarroja.com": {
-  "detalle": "HTTP 200 · 61001 bytes · 0.8s",
+  "detalle": "HTTP 200 · 61001 bytes · 0.7s",
   "estado": "ok"
  },
  "cerrajerocheste.es": {
-  "detalle": "HTTP 200 · 65578 bytes · 1.0s",
+  "detalle": "HTTP 200 · 65578 bytes · 2.1s",
   "estado": "ok"
  },
  "cerrajerocullera.com": {
@@ -136,15 +136,15 @@
   "estado": "ok"
  },
  "cerrajerodealaquas.com": {
-  "detalle": "HTTP 200 · 72445 bytes · 1.9s",
+  "detalle": "HTTP 200 · 72445 bytes · 2.0s",
   "estado": "ok"
  },
  "cerrajerodealbal.com": {
-  "detalle": "HTTP 200 · 32281 bytes · 1.2s",
+  "detalle": "HTTP 200 · 32281 bytes · 1.0s",
   "estado": "ok"
  },
  "cerrajerodealboraya.com": {
-  "detalle": "HTTP 200 · 62459 bytes · 0.7s",
+  "detalle": "HTTP 200 · 62459 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajerodealdaia.com": {
@@ -164,19 +164,19 @@
   "estado": "ok"
  },
  "cerrajerodebetera.com": {
-  "detalle": "HTTP 200 · 38675 bytes · 0.8s",
+  "detalle": "HTTP 200 · 38675 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajerodecatarroja.com": {
-  "detalle": "HTTP 200 · 65669 bytes · 0.6s",
+  "detalle": "HTTP 200 · 65669 bytes · 0.7s",
   "estado": "ok"
  },
  "cerrajerodeeliana.com": {
-  "detalle": "HTTP 200 · 56332 bytes · 0.7s",
+  "detalle": "HTTP 200 · 56332 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajerodegandia.com": {
-  "detalle": "HTTP 200 · 97690 bytes · 0.6s",
+  "detalle": "HTTP 200 · 97690 bytes · 0.5s",
   "estado": "ok"
  },
  "cerrajerodegodella.com": {
@@ -188,7 +188,7 @@
   "estado": "ok"
  },
  "cerrajerodelapobladevallbona.com": {
-  "detalle": "HTTP 200 · 46657 bytes · 0.7s",
+  "detalle": "HTTP 200 · 46657 bytes · 0.8s",
   "estado": "ok"
  },
  "cerrajerodelpuig.com": {
@@ -196,7 +196,7 @@
   "estado": "ok"
  },
  "cerrajerodemadrid.com": {
-  "detalle": "HTTP 200 · 92430 bytes · 1.2s",
+  "detalle": "HTTP 200 · 92430 bytes · 0.9s",
   "estado": "ok"
  },
  "cerrajerodemanises.com": {
@@ -212,7 +212,7 @@
   "estado": "ok"
  },
  "cerrajerodemislata.com": {
-  "detalle": "HTTP 200 · 28745 bytes · 0.7s",
+  "detalle": "HTTP 200 · 28745 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajerodemoncada.com": {
@@ -220,7 +220,7 @@
   "estado": "ok"
  },
  "cerrajerodemuseros.com": {
-  "detalle": "HTTP 200 · 78816 bytes · 0.7s",
+  "detalle": "HTTP 200 · 78816 bytes · 1.2s",
   "estado": "ok"
  },
  "cerrajerodepaiporta.com": {
@@ -232,7 +232,7 @@
   "estado": "ok"
  },
  "cerrajerodequartdepoblet.com": {
-  "detalle": "HTTP 200 · 59743 bytes · 1.2s",
+  "detalle": "HTTP 200 · 59743 bytes · 1.1s",
   "estado": "ok"
  },
  "cerrajeroderocafort.com": {
@@ -248,23 +248,23 @@
   "estado": "ok"
  },
  "cerrajerodesueca.com": {
-  "detalle": "HTTP 200 · 107347 bytes · 0.8s",
+  "detalle": "HTTP 200 · 107347 bytes · 0.7s",
   "estado": "ok"
  },
  "cerrajerodetorrente.com": {
-  "detalle": "HTTP 200 · 67356 bytes · 0.6s",
+  "detalle": "HTTP 200 · 67356 bytes · 0.7s",
   "estado": "ok"
  },
  "cerrajerodevalencia.com": {
-  "detalle": "HTTP 200 · 291270 bytes · 3.3s",
+  "detalle": "HTTP 200 · 291270 bytes · 3.0s",
   "estado": "ok"
  },
  "cerrajerodevalencia.es": {
-  "detalle": "HTTP 200 · 102671 bytes · 1.0s",
+  "detalle": "HTTP 200 · 102671 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajerodevalencia.net": {
-  "detalle": "HTTP 200 · 94793 bytes · 2.0s",
+  "detalle": "HTTP 200 · 94793 bytes · 0.9s",
   "estado": "ok"
  },
  "cerrajerodevalenciabarato.com": {
@@ -272,27 +272,27 @@
   "estado": "ok"
  },
  "cerrajerodonosti.com": {
-  "detalle": "HTTP 200 · 124860 bytes · 2.9s",
+  "detalle": "HTTP 200 · 124860 bytes · 0.8s",
   "estado": "ok"
  },
  "cerrajeroelpuig.es": {
-  "detalle": "HTTP 200 · 67465 bytes · 2.0s",
+  "detalle": "HTTP 200 · 67465 bytes · 2.1s",
   "estado": "ok"
  },
  "cerrajeroenburjassot.es": {
-  "detalle": "HTTP 200 · 69078 bytes · 2.6s",
+  "detalle": "HTTP 200 · 69078 bytes · 2.5s",
   "estado": "ok"
  },
  "cerrajeroenmislata.es": {
-  "detalle": "HTTP 200 · 55044 bytes · 2.0s",
+  "detalle": "HTTP 200 · 55044 bytes · 1.9s",
   "estado": "ok"
  },
  "cerrajerogandia.com": {
-  "detalle": "HTTP 200 · 110589 bytes · 2.0s",
+  "detalle": "HTTP 200 · 110589 bytes · 2.3s",
   "estado": "ok"
  },
  "cerrajerogodella.com": {
-  "detalle": "HTTP 200 · 148150 bytes · 2.8s",
+  "detalle": "HTTP 200 · 148150 bytes · 2.6s",
   "estado": "ok"
  },
  "cerrajerogodella.es": {
@@ -300,19 +300,19 @@
   "estado": "ok"
  },
  "cerrajerogodelleta.es": {
-  "detalle": "HTTP 200 · 70683 bytes · 2.5s",
+  "detalle": "HTTP 200 · 70683 bytes · 1.9s",
   "estado": "ok"
  },
  "cerrajerolaeliana.com": {
-  "detalle": "HTTP 200 · 56492 bytes · 1.6s",
+  "detalle": "HTTP 200 · 56492 bytes · 0.8s",
   "estado": "ok"
  },
  "cerrajerolaeliana.es": {
-  "detalle": "HTTP 200 · 67006 bytes · 1.9s",
+  "detalle": "HTTP 200 · 67006 bytes · 1.8s",
   "estado": "ok"
  },
  "cerrajerolliria.es": {
-  "detalle": "HTTP 200 · 65365 bytes · 2.2s",
+  "detalle": "HTTP 200 · 65365 bytes · 2.1s",
   "estado": "ok"
  },
  "cerrajeromanises.com": {
@@ -328,7 +328,7 @@
   "estado": "ok"
  },
  "cerrajeromeliana.es": {
-  "detalle": "HTTP 200 · 69374 bytes · 1.5s",
+  "detalle": "HTTP 200 · 69374 bytes · 1.4s",
   "estado": "ok"
  },
  "cerrajeromoncada.es": {
@@ -336,15 +336,15 @@
   "estado": "ok"
  },
  "cerrajeronaquera.es": {
-  "detalle": "HTTP 200 · 55869 bytes · 0.9s",
+  "detalle": "HTTP 200 · 55869 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajeropaiporta.com": {
-  "detalle": "HTTP 200 · 78940 bytes · 0.8s",
+  "detalle": "HTTP 200 · 78940 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajeropaterna.es": {
-  "detalle": "HTTP 200 · 97051 bytes · 2.3s",
+  "detalle": "HTTP 200 · 97051 bytes · 0.9s",
   "estado": "ok"
  },
  "cerrajeropersianerovalencia.com": {
@@ -372,15 +372,15 @@
   "estado": "ok"
  },
  "cerrajerorocafort.es": {
-  "detalle": "HTTP 200 · 90907 bytes · 0.7s",
+  "detalle": "HTTP 200 · 90907 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajerorolapobladevallbona.es": {
-  "detalle": "HTTP 200 · 85679 bytes · 1.3s",
+  "detalle": "HTTP 200 · 85679 bytes · 2.5s",
   "estado": "ok"
  },
  "cerrajeroropicanya.es": {
-  "detalle": "HTTP 200 · 87787 bytes · 2.9s",
+  "detalle": "HTTP 200 · 87787 bytes · 2.4s",
   "estado": "ok"
  },
  "cerrajeros-castellon.com": {
@@ -388,11 +388,11 @@
   "estado": "ok"
  },
  "cerrajeros-en-sevilla.com": {
-  "detalle": "HTTP 200 · 105814 bytes · 0.9s",
+  "detalle": "HTTP 200 · 105814 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajeros-guadalajara.com": {
-  "detalle": "HTTP 200 · 83533 bytes · 0.6s",
+  "detalle": "HTTP 200 · 83533 bytes · 0.5s",
   "estado": "ok"
  },
  "cerrajeros-pamplona.com": {
@@ -404,31 +404,31 @@
   "estado": "ok"
  },
  "cerrajeros-vitoria.com": {
-  "detalle": "HTTP 200 · 117104 bytes · 0.6s",
+  "detalle": "HTTP 200 · 117104 bytes · 0.7s",
   "estado": "ok"
  },
  "cerrajeros24horasvalencia.com": {
-  "detalle": "HTTP 200 · 96495 bytes · 1.0s",
+  "detalle": "HTTP 200 · 96495 bytes · 0.9s",
   "estado": "ok"
  },
  "cerrajerosalbal.com": {
-  "detalle": "HTTP 200 · 79572 bytes · 1.5s",
+  "detalle": "HTTP 200 · 79572 bytes · 1.8s",
   "estado": "ok"
  },
  "cerrajerosalboraya.com": {
-  "detalle": "HTTP 200 · 79960 bytes · 0.7s",
+  "detalle": "HTTP 200 · 79960 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajerosalcasser.com": {
-  "detalle": "HTTP 200 · 62597 bytes · 2.1s",
+  "detalle": "HTTP 200 · 62597 bytes · 2.4s",
   "estado": "ok"
  },
  "cerrajerosalfafar.com": {
-  "detalle": "HTTP 200 · 60260 bytes · 3.9s",
+  "detalle": "HTTP 200 · 60260 bytes · 3.7s",
   "estado": "ok"
  },
  "cerrajerosalfaradelpatriarca.com": {
-  "detalle": "HTTP 200 · 151178 bytes · 4.0s",
+  "detalle": "HTTP 200 · 151178 bytes · 3.0s",
   "estado": "ok"
  },
  "cerrajerosalmassera.com": {
@@ -436,19 +436,19 @@
   "estado": "ok"
  },
  "cerrajerosbarcelona.page": {
-  "detalle": "HTTP 200 · 95850 bytes · 0.5s",
+  "detalle": "HTTP 200 · 95850 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajerosbenaguasil.com": {
-  "detalle": "HTTP 200 · 106879 bytes · 3.2s",
+  "detalle": "HTTP 200 · 106879 bytes · 2.6s",
   "estado": "ok"
  },
  "cerrajerosbenetusser.com": {
-  "detalle": "HTTP 200 · 56157 bytes · 0.7s",
+  "detalle": "HTTP 200 · 56157 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajerosbilbao.com": {
-  "detalle": "HTTP 200 · 122340 bytes · 0.7s",
+  "detalle": "HTTP 200 · 122340 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajerosbilbao.top": {
@@ -460,31 +460,31 @@
   "estado": "ok"
  },
  "cerrajeroscanetdeberenguer.com": {
-  "detalle": "HTTP 200 · 69026 bytes · 2.2s",
+  "detalle": "HTTP 200 · 69026 bytes · 10.3s",
   "estado": "ok"
  },
  "cerrajeroscarlet.com": {
-  "detalle": "HTTP 200 · 55936 bytes · 0.6s",
+  "detalle": "HTTP 200 · 55936 bytes · 1.2s",
   "estado": "ok"
  },
  "cerrajeroscastellon.com": {
-  "detalle": "HTTP 200 · 185408 bytes · 0.7s",
+  "detalle": "HTTP 200 · 185408 bytes · 1.1s",
   "estado": "ok"
  },
  "cerrajeroscatarroja.com": {
-  "detalle": "HTTP 200 · 55964 bytes · 0.7s",
+  "detalle": "HTTP 200 · 55964 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajeroscheste.com": {
-  "detalle": "HTTP 200 · 75704 bytes · 0.7s",
+  "detalle": "HTTP 200 · 75704 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajeroschiva.com": {
-  "detalle": "HTTP 200 · 153392 bytes · 1.1s",
+  "detalle": "HTTP 200 · 153392 bytes · 3.8s",
   "estado": "ok"
  },
  "cerrajeroscordoba.com": {
-  "detalle": "HTTP 200 · 118293 bytes · 0.8s",
+  "detalle": "HTTP 200 · 118293 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajeroscoruna.com": {
@@ -500,11 +500,11 @@
   "estado": "ok"
  },
  "cerrajerosdemanises.com": {
-  "detalle": "HTTP 200 · 94868 bytes · 0.8s",
+  "detalle": "HTTP 200 · 94868 bytes · 0.7s",
   "estado": "ok"
  },
  "cerrajerosdemislata.com": {
-  "detalle": "HTTP 200 · 71170 bytes · 0.7s",
+  "detalle": "HTTP 200 · 71170 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajerosdesagunto.com": {
@@ -512,31 +512,31 @@
   "estado": "ok"
  },
  "cerrajerosdevalenciacapital.com": {
-  "detalle": "HTTP 200 · 112572 bytes · 8.1s",
+  "detalle": "HTTP 200 · 112572 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajerosedavi.es": {
-  "detalle": "HTTP 200 · 78627 bytes · 3.3s",
+  "detalle": "HTTP 200 · 78627 bytes · 3.9s",
   "estado": "ok"
  },
  "cerrajeroselperello.com": {
-  "detalle": "HTTP 200 · 90216 bytes · 0.6s",
+  "detalle": "HTTP 200 · 90216 bytes · 0.9s",
   "estado": "ok"
  },
  "cerrajeroselpuig.com": {
-  "detalle": "HTTP 200 · 77801 bytes · 4.1s",
+  "detalle": "HTTP 200 · 77801 bytes · 3.1s",
   "estado": "ok"
  },
  "cerrajerosenpaterna.es": {
-  "detalle": "HTTP 200 · 164508 bytes · 3.7s",
+  "detalle": "HTTP 200 · 164508 bytes · 4.2s",
   "estado": "ok"
  },
  "cerrajerosentorrente.es": {
-  "detalle": "HTTP 200 · 150992 bytes · 0.7s",
+  "detalle": "HTTP 200 · 150992 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajerosenzaragoza24.com": {
-  "detalle": "HTTP 200 · 66047 bytes · 0.9s",
+  "detalle": "HTTP 200 · 66047 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajerosfoios.com": {
@@ -548,7 +548,7 @@
   "estado": "ok"
  },
  "cerrajerosgodella.com": {
-  "detalle": "HTTP 200 · 84272 bytes · 3.9s",
+  "detalle": "HTTP 200 · 84305 bytes · 3.6s",
   "estado": "ok"
  },
  "cerrajeroslaeliana.com": {
@@ -560,19 +560,19 @@
   "estado": "ok"
  },
  "cerrajeroslapobladevallbona.com": {
-  "detalle": "HTTP 200 · 54904 bytes · 1.0s",
+  "detalle": "HTTP 200 · 54904 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajeroslaspalmas.com": {
-  "detalle": "HTTP 200 · 132732 bytes · 0.7s",
+  "detalle": "HTTP 200 · 132732 bytes · 2.4s",
   "estado": "ok"
  },
  "cerrajerosleon.com": {
-  "detalle": "HTTP 200 · 126606 bytes · 0.6s",
+  "detalle": "HTTP 200 · 126606 bytes · 0.8s",
   "estado": "ok"
  },
  "cerrajerosliria.com": {
-  "detalle": "HTTP 200 · 88628 bytes · 2.5s",
+  "detalle": "HTTP 200 · 88626 bytes · 2.7s",
   "estado": "ok"
  },
  "cerrajerosmadrid.page": {
@@ -592,7 +592,7 @@
   "estado": "ok"
  },
  "cerrajerosmassamagrell.com": {
-  "detalle": "HTTP 200 · 52134 bytes · 0.6s",
+  "detalle": "HTTP 200 · 52134 bytes · 0.7s",
   "estado": "ok"
  },
  "cerrajerosmassanassa.com": {
@@ -600,7 +600,7 @@
   "estado": "ok"
  },
  "cerrajerosmeliana.com": {
-  "detalle": "HTTP 200 · 57932 bytes · 0.6s",
+  "detalle": "HTTP 200 · 57932 bytes · 0.7s",
   "estado": "ok"
  },
  "cerrajerosmoncada.com": {
@@ -612,7 +612,7 @@
   "estado": "ok"
  },
  "cerrajerosoviedo.com": {
-  "detalle": "HTTP 200 · 148717 bytes · 1.2s",
+  "detalle": "HTTP 200 · 148717 bytes · 0.7s",
   "estado": "ok"
  },
  "cerrajerospaiporta.com": {
@@ -620,11 +620,11 @@
   "estado": "ok"
  },
  "cerrajerospamplona.com": {
-  "detalle": "HTTP 200 · 118422 bytes · 0.8s",
+  "detalle": "HTTP 200 · 118422 bytes · 0.7s",
   "estado": "ok"
  },
  "cerrajerospicanya.com": {
-  "detalle": "HTTP 200 · 83641 bytes · 2.5s",
+  "detalle": "HTTP 200 · 83643 bytes · 2.6s",
   "estado": "ok"
  },
  "cerrajerospicassent.com": {
@@ -640,19 +640,19 @@
   "estado": "ok"
  },
  "cerrajerosquartdepoblet.com": {
-  "detalle": "HTTP 200 · 54021 bytes · 0.7s",
+  "detalle": "HTTP 200 · 54021 bytes · 0.6s",
   "estado": "ok"
  },
  "cerrajerosribarrojadelturia.com": {
-  "detalle": "HTTP 200 · 73315 bytes · 2.6s",
+  "detalle": "HTTP 200 · 73315 bytes · 1.6s",
   "estado": "ok"
  },
  "cerrajerosrocafort.com": {
-  "detalle": "HTTP 200 · 168168 bytes · 3.3s",
+  "detalle": "HTTP 200 · 168168 bytes · 2.8s",
   "estado": "ok"
  },
  "cerrajerossanantoniodebenageber.com": {
-  "detalle": "HTTP 200 · 66268 bytes · 3.0s",
+  "detalle": "HTTP 200 · 66268 bytes · 2.7s",
   "estado": "ok"
  },
  "cerrajerossedavi.com": {
@@ -664,19 +664,19 @@
   "estado": "ok"
  },
  "cerrajerossollana.com": {
-  "detalle": "HTTP 200 · 155228 bytes · 3.6s",
+  "detalle": "HTTP 200 · 155228 bytes · 3.2s",
   "estado": "ok"
  },
  "cerrajerossueca.com": {
-  "detalle": "HTTP 200 · 153842 bytes · 3.3s",
+  "detalle": "HTTP 200 · 153842 bytes · 12.6s",
   "estado": "ok"
  },
  "cerrajerostavernesblanques.com": {
-  "detalle": "HTTP 200 · 83212 bytes · 2.6s",
+  "detalle": "HTTP 200 · 83212 bytes · 2.5s",
   "estado": "ok"
  },
  "cerrajerostenerife.com": {
-  "detalle": "HTTP 200 · 110595 bytes · 0.8s",
+  "detalle": "HTTP 200 · 110595 bytes · 0.7s",
   "estado": "ok"
  },
  "cerrajerosvalladolid.com": {
@@ -688,23 +688,23 @@
   "estado": "ok"
  },
  "cerrajerotavernesblanques.es": {
-  "detalle": "HTTP 200 · 76384 bytes · 2.8s",
+  "detalle": "HTTP 200 · 76384 bytes · 2.5s",
   "estado": "ok"
  },
  "cerrajerotorrent.com": {
-  "detalle": "HTTP 200 · 105644 bytes · 0.6s",
+  "detalle": "HTTP 200 · 105644 bytes · 0.7s",
   "estado": "ok"
  },
  "cerrajeroxirivella.com": {
-  "detalle": "HTTP 200 · 168174 bytes · 3.5s",
+  "detalle": "HTTP 200 · 168174 bytes · 3.2s",
   "estado": "ok"
  },
  "cerrajeroxirivella.es": {
-  "detalle": "HTTP 200 · 64981 bytes · 1.5s",
+  "detalle": "HTTP 200 · 64981 bytes · 1.4s",
   "estado": "ok"
  },
  "como-reparo.com": {
-  "detalle": "HTTP 200 · 215379 bytes · 3.3s",
+  "detalle": "HTTP 200 · 215379 bytes · 1.3s",
   "estado": "ok"
  },
  "cordobadesatascos.com": {
@@ -716,19 +716,19 @@
   "estado": "ok"
  },
  "desatascos-coruña.com": {
-  "detalle": "HTTP 200 · 79067 bytes · 0.7s",
+  "detalle": "HTTP 200 · 79067 bytes · 1.3s",
   "estado": "ok"
  },
  "desatascos-girona.com": {
-  "detalle": "HTTP 200 · 107746 bytes · 0.7s",
+  "detalle": "HTTP 200 · 107746 bytes · 0.8s",
   "estado": "ok"
  },
  "desatascos-guadalajara.com": {
-  "detalle": "HTTP 200 · 142754 bytes · 0.6s",
+  "detalle": "HTTP 200 · 142754 bytes · 0.8s",
   "estado": "ok"
  },
  "desatascos-murcia24h.com": {
-  "detalle": "HTTP 200 · 85165 bytes · 1.0s",
+  "detalle": "HTTP 200 · 85165 bytes · 0.8s",
   "estado": "ok"
  },
  "desatascos-santander.com": {
@@ -740,15 +740,15 @@
   "estado": "ok"
  },
  "desatascos-vitoria.com": {
-  "detalle": "HTTP 200 · 105096 bytes · 0.7s",
+  "detalle": "HTTP 200 · 105096 bytes · 0.6s",
   "estado": "ok"
  },
  "desatascosdonosti.com": {
-  "detalle": "HTTP 200 · 96131 bytes · 0.8s",
+  "detalle": "HTTP 200 · 96131 bytes · 0.7s",
   "estado": "ok"
  },
  "desatascosoviedo.com": {
-  "detalle": "HTTP 200 · 107159 bytes · 1.4s",
+  "detalle": "HTTP 200 · 107159 bytes · 0.7s",
   "estado": "ok"
  },
  "desatascospalma.com": {
@@ -756,7 +756,7 @@
   "estado": "ok"
  },
  "desatascospamplona.com": {
-  "detalle": "HTTP 200 · 117185 bytes · 1.1s",
+  "detalle": "HTTP 200 · 117185 bytes · 0.7s",
   "estado": "ok"
  },
  "dinoscuando.com": {
@@ -764,15 +764,15 @@
   "estado": "ok"
  },
  "donostiaelectricistas.com": {
-  "detalle": "HTTP 200 · 116218 bytes · 2.7s",
+  "detalle": "HTTP 200 · 116218 bytes · 0.7s",
   "estado": "ok"
  },
  "donostiafontaneros.com": {
-  "detalle": "HTTP 200 · 105701 bytes · 0.7s",
+  "detalle": "HTTP 200 · 105701 bytes · 2.3s",
   "estado": "ok"
  },
  "electricistademadrid.com": {
-  "detalle": "HTTP 200 · 77584 bytes · 1.2s",
+  "detalle": "HTTP 200 · 77584 bytes · 0.7s",
   "estado": "ok"
  },
  "electricistas-castellon.com": {
@@ -780,7 +780,7 @@
   "estado": "ok"
  },
  "electricistas-girona.com": {
-  "detalle": "HTTP 200 · 97035 bytes · 0.8s",
+  "detalle": "HTTP 200 · 97035 bytes · 0.7s",
   "estado": "ok"
  },
  "electricistas-guadalajara.com": {
@@ -788,7 +788,7 @@
   "estado": "ok"
  },
  "electricistas-santander.com": {
-  "detalle": "HTTP 200 · 140824 bytes · 0.6s",
+  "detalle": "HTTP 200 · 140824 bytes · 0.7s",
   "estado": "ok"
  },
  "electricistas-sevilla.com": {
@@ -796,23 +796,23 @@
   "estado": "ok"
  },
  "electricistas-vitoria.com": {
-  "detalle": "HTTP 200 · 142539 bytes · 0.6s",
+  "detalle": "HTTP 200 · 142539 bytes · 0.7s",
   "estado": "ok"
  },
  "electricistas-zaragoza.com": {
-  "detalle": "HTTP 200 · 65497 bytes · 0.7s",
+  "detalle": "HTTP 200 · 65497 bytes · 0.6s",
   "estado": "ok"
  },
  "electricistas.page": {
-  "detalle": "HTTP 200 · 123836 bytes · 1.8s",
+  "detalle": "HTTP 200 · 123836 bytes · 0.7s",
   "estado": "ok"
  },
  "electricistasbarcelona.com": {
-  "detalle": "HTTP 200 · 153929 bytes · 0.9s",
+  "detalle": "HTTP 200 · 153929 bytes · 0.6s",
   "estado": "ok"
  },
  "electricistasbilbao.com": {
-  "detalle": "HTTP 200 · 73775 bytes · 0.7s",
+  "detalle": "HTTP 200 · 73775 bytes · 0.8s",
   "estado": "ok"
  },
  "electricistascadiz.com": {
@@ -820,23 +820,23 @@
   "estado": "ok"
  },
  "electricistascordoba.com": {
-  "detalle": "HTTP 200 · 75107 bytes · 0.8s",
+  "detalle": "HTTP 200 · 75107 bytes · 0.6s",
   "estado": "ok"
  },
  "electricistascoruna.com": {
-  "detalle": "HTTP 200 · 98474 bytes · 0.7s",
+  "detalle": "HTTP 200 · 98474 bytes · 1.6s",
   "estado": "ok"
  },
  "electricistasenmurcia.com": {
-  "detalle": "HTTP 200 · 102185 bytes · 1.6s",
+  "detalle": "HTTP 200 · 102185 bytes · 0.5s",
   "estado": "ok"
  },
  "electricistaslaspalmas.com": {
-  "detalle": "HTTP 200 · 101055 bytes · 0.7s",
+  "detalle": "HTTP 200 · 101055 bytes · 0.6s",
   "estado": "ok"
  },
  "electricistasleon.com": {
-  "detalle": "HTTP 200 · 88946 bytes · 0.7s",
+  "detalle": "HTTP 200 · 88946 bytes · 0.8s",
   "estado": "ok"
  },
  "electricistasmallorca.com": {
@@ -844,7 +844,7 @@
   "estado": "ok"
  },
  "electricistasoviedo.com": {
-  "detalle": "HTTP 200 · 110996 bytes · 1.3s",
+  "detalle": "HTTP 200 · 110996 bytes · 0.7s",
   "estado": "ok"
  },
  "electricistaspamplona.com": {
@@ -852,7 +852,7 @@
   "estado": "ok"
  },
  "electricistastarragona.com": {
-  "detalle": "HTTP 200 · 95753 bytes · 0.6s",
+  "detalle": "HTTP 200 · 95753 bytes · 0.7s",
   "estado": "ok"
  },
  "electricistastenerife.com": {
@@ -860,11 +860,11 @@
   "estado": "ok"
  },
  "electricistasvalencia.com": {
-  "detalle": "HTTP 200 · 130239 bytes · 1.0s",
+  "detalle": "HTTP 200 · 130239 bytes · 0.8s",
   "estado": "ok"
  },
  "electricistasvalladolid.com": {
-  "detalle": "HTTP 200 · 119159 bytes · 2.4s",
+  "detalle": "HTTP 200 · 119159 bytes · 0.6s",
   "estado": "ok"
  },
  "electricistasvizcaya.com": {
@@ -872,23 +872,23 @@
   "estado": "ok"
  },
  "enreparaciones.com": {
-  "detalle": "HTTP 200 · 49106 bytes · 0.7s",
+  "detalle": "HTTP 200 · 49106 bytes · 0.6s",
   "estado": "ok"
  },
  "fontanerodemadrid.com": {
-  "detalle": "HTTP 200 · 88316 bytes · 0.8s",
+  "detalle": "HTTP 200 · 88316 bytes · 0.7s",
   "estado": "ok"
  },
  "fontaneros-castellon.com": {
-  "detalle": "HTTP 200 · 142588 bytes · 0.7s",
+  "detalle": "HTTP 200 · 142588 bytes · 0.6s",
   "estado": "ok"
  },
  "fontaneros-de-valencia.com": {
-  "detalle": "HTTP 200 · 82758 bytes · 2.0s",
+  "detalle": "HTTP 200 · 82758 bytes · 1.5s",
   "estado": "ok"
  },
  "fontaneros-de-valencia.es": {
-  "detalle": "HTTP 200 · 96149 bytes · 2.8s",
+  "detalle": "HTTP 200 · 96149 bytes · 3.0s",
   "estado": "ok"
  },
  "fontaneros-girona.com": {
@@ -900,11 +900,11 @@
   "estado": "ok"
  },
  "fontaneros-pamplona.es": {
-  "detalle": "HTTP 200 · 127009 bytes · 1.2s",
+  "detalle": "HTTP 200 · 127009 bytes · 0.6s",
   "estado": "ok"
  },
  "fontaneros-sevilla.com": {
-  "detalle": "HTTP 200 · 112644 bytes · 0.9s",
+  "detalle": "HTTP 200 · 112644 bytes · 0.7s",
   "estado": "ok"
  },
  "fontaneros-tarragona.com": {
@@ -916,11 +916,11 @@
   "estado": "ok"
  },
  "fontaneros-vitoria.com": {
-  "detalle": "HTTP 200 · 109237 bytes · 0.7s",
+  "detalle": "HTTP 200 · 109237 bytes · 0.8s",
   "estado": "ok"
  },
  "fontanerosbarcelona.com": {
-  "detalle": "HTTP 200 · 170672 bytes · 2.5s",
+  "detalle": "HTTP 200 · 170672 bytes · 4.0s",
   "estado": "ok"
  },
  "fontanerosbarcelona.page": {
@@ -928,7 +928,7 @@
   "estado": "ok"
  },
  "fontanerosbilbao.com": {
-  "detalle": "HTTP 200 · 98858 bytes · 0.7s",
+  "detalle": "HTTP 200 · 98858 bytes · 0.6s",
   "estado": "ok"
  },
  "fontanerosbilbao.net": {
@@ -944,11 +944,11 @@
   "estado": "ok"
  },
  "fontaneroscordoba.com": {
-  "detalle": "HTTP 200 · 97315 bytes · 1.9s",
+  "detalle": "HTTP 200 · 97315 bytes · 2.7s",
   "estado": "ok"
  },
  "fontaneroscoruna.com": {
-  "detalle": "HTTP 200 · 88078 bytes · 0.7s",
+  "detalle": "HTTP 200 · 88078 bytes · 1.1s",
   "estado": "ok"
  },
  "fontaneroslaspalmas.com": {
@@ -956,7 +956,7 @@
   "estado": "ok"
  },
  "fontanerosmadrid.page": {
-  "detalle": "HTTP 200 · 101296 bytes · 0.6s",
+  "detalle": "HTTP 200 · 101296 bytes · 0.7s",
   "estado": "ok"
  },
  "fontanerosmallorca.com": {
@@ -964,11 +964,11 @@
   "estado": "ok"
  },
  "fontanerosmallorca.net": {
-  "detalle": "HTTP 200 · 94197 bytes · 0.6s",
+  "detalle": "HTTP 200 · 94197 bytes · 0.7s",
   "estado": "ok"
  },
  "fontanerosoviedo.com": {
-  "detalle": "HTTP 200 · 89214 bytes · 0.8s",
+  "detalle": "HTTP 200 · 89214 bytes · 0.7s",
   "estado": "ok"
  },
  "fontanerostenerife.com": {
@@ -976,27 +976,27 @@
   "estado": "ok"
  },
  "fontanerosvalencia.page": {
-  "detalle": "HTTP 200 · 98855 bytes · 1.4s",
+  "detalle": "HTTP 200 · 98855 bytes · 0.5s",
   "estado": "ok"
  },
  "fontanerosvalladolid.com": {
-  "detalle": "HTTP 200 · 100343 bytes · 0.7s",
+  "detalle": "HTTP 200 · 100343 bytes · 1.3s",
   "estado": "ok"
  },
  "fontanerosvizcaya.com": {
-  "detalle": "HTTP 200 · 90261 bytes · 0.6s",
+  "detalle": "HTTP 200 · 90261 bytes · 0.7s",
   "estado": "ok"
  },
  "granadacerrajeros.com": {
-  "detalle": "HTTP 200 · 143150 bytes · 1.1s",
+  "detalle": "HTTP 200 · 143150 bytes · 0.6s",
   "estado": "ok"
  },
  "granadadesatascos.com": {
-  "detalle": "HTTP 200 · 101209 bytes · 0.9s",
+  "detalle": "HTTP 200 · 101209 bytes · 0.7s",
   "estado": "ok"
  },
  "granadaelectricistas.com": {
-  "detalle": "HTTP 200 · 96748 bytes · 0.7s",
+  "detalle": "HTTP 200 · 96748 bytes · 0.6s",
   "estado": "ok"
  },
  "granadafontaneros.com": {
@@ -1004,7 +1004,7 @@
   "estado": "ok"
  },
  "laspalmas-desatascos.com": {
-  "detalle": "HTTP 200 · 88546 bytes · 0.9s",
+  "detalle": "HTTP 200 · 88546 bytes · 0.8s",
   "estado": "ok"
  },
  "leondesatascos.com": {
@@ -1016,19 +1016,19 @@
   "estado": "ok"
  },
  "madrid-desatascos.com": {
-  "detalle": "HTTP 200 · 106892 bytes · 0.6s",
+  "detalle": "HTTP 200 · 106892 bytes · 0.9s",
   "estado": "ok"
  },
  "malagacerrajeros.com": {
-  "detalle": "HTTP 200 · 115205 bytes · 1.0s",
+  "detalle": "HTTP 200 · 115205 bytes · 1.1s",
   "estado": "ok"
  },
  "malagadesatascos.com": {
-  "detalle": "HTTP 200 · 80619 bytes · 0.8s",
+  "detalle": "HTTP 200 · 80619 bytes · 0.9s",
   "estado": "ok"
  },
  "malagaelectricistas.com": {
-  "detalle": "HTTP 200 · 110349 bytes · 0.9s",
+  "detalle": "HTTP 200 · 110349 bytes · 0.6s",
   "estado": "ok"
  },
  "malagafontaneros.com": {
@@ -1036,7 +1036,7 @@
   "estado": "ok"
  },
  "malagareparacionelectrodomesticos.com": {
-  "detalle": "HTTP 200 · 112005 bytes · 1.5s",
+  "detalle": "HTTP 200 · 112005 bytes · 0.8s",
   "estado": "ok"
  },
  "murciacerrajeros.com": {
@@ -1044,7 +1044,7 @@
   "estado": "ok"
  },
  "murciafontaneros.com": {
-  "detalle": "HTTP 200 · 109198 bytes · 0.9s",
+  "detalle": "HTTP 200 · 109198 bytes · 0.8s",
   "estado": "ok"
  },
  "murciareparacionelectrodomesticos.com": {
@@ -1052,11 +1052,11 @@
   "estado": "ok"
  },
  "pamplonareparacionelectrodomesticos.com": {
-  "detalle": "HTTP 200 · 110075 bytes · 1.2s",
+  "detalle": "HTTP 200 · 110075 bytes · 0.7s",
   "estado": "ok"
  },
  "persianasmotorizadasvalencia.com": {
-  "detalle": "HTTP 200 · 93123 bytes · 0.7s",
+  "detalle": "HTTP 200 · 93123 bytes · 0.6s",
   "estado": "ok"
  },
  "persianaspareja.es": {
@@ -1072,7 +1072,7 @@
   "estado": "ok"
  },
  "puertasautomaticasjc.com": {
-  "detalle": "HTTP 200 · 93493 bytes · 0.7s",
+  "detalle": "HTTP 200 · 93493 bytes · 0.6s",
   "estado": "ok"
  },
  "reparacionelectrodomesticos-barcelona.com": {
@@ -1080,7 +1080,7 @@
   "estado": "ok"
  },
  "reparacionelectrodomesticos-castellon.com": {
-  "detalle": "HTTP 200 · 122667 bytes · 0.7s",
+  "detalle": "HTTP 200 · 122667 bytes · 0.6s",
   "estado": "ok"
  },
  "reparacionelectrodomesticos-zaragoza.com": {
@@ -1092,11 +1092,11 @@
   "estado": "ok"
  },
  "reparacionelectrodomesticosdonosti.com": {
-  "detalle": "HTTP 200 · 206464 bytes · 1.0s",
+  "detalle": "HTTP 200 · 206464 bytes · 0.9s",
   "estado": "ok"
  },
  "reparacionelectrodomesticosgirona.com": {
-  "detalle": "HTTP 200 · 118709 bytes · 0.8s",
+  "detalle": "HTTP 200 · 118709 bytes · 1.3s",
   "estado": "ok"
  },
  "reparacionelectrodomesticosgranada.com": {
@@ -1104,55 +1104,55 @@
   "estado": "ok"
  },
  "reparacionelectrodomesticosguadalajara.com": {
-  "detalle": "HTTP 200 · 144971 bytes · 0.5s",
+  "detalle": "HTTP 200 · 144971 bytes · 1.6s",
   "estado": "ok"
  },
  "reparacionelectrodomesticoslacoruña.com": {
-  "detalle": "HTTP 200 · 122042 bytes · 0.6s",
+  "detalle": "HTTP 200 · 122042 bytes · 0.9s",
   "estado": "ok"
  },
  "reparacionelectrodomesticoslaspalmas.com": {
-  "detalle": "HTTP 200 · 124166 bytes · 0.6s",
+  "detalle": "HTTP 200 · 124166 bytes · 0.8s",
   "estado": "ok"
  },
  "reparacionelectrodomesticosleon.com": {
-  "detalle": "HTTP 200 · 113940 bytes · 0.8s",
+  "detalle": "HTTP 200 · 113940 bytes · 3.7s",
   "estado": "ok"
  },
  "reparacionelectrodomesticosmadrid.com": {
-  "detalle": "HTTP 200 · 88007 bytes · 0.6s",
+  "detalle": "HTTP 200 · 88007 bytes · 1.0s",
   "estado": "ok"
  },
  "reparacionelectrodomesticosmallorca.com": {
-  "detalle": "HTTP 200 · 136509 bytes · 0.6s",
+  "detalle": "HTTP 200 · 136509 bytes · 0.7s",
   "estado": "ok"
  },
  "reparacionelectrodomesticosoviedo.com": {
-  "detalle": "HTTP 200 · 107618 bytes · 8.7s",
+  "detalle": "HTTP 200 · 107618 bytes · 1.5s",
   "estado": "ok"
  },
  "reparacionelectrodomesticossalamanca.com": {
-  "detalle": "HTTP 200 · 118893 bytes · 0.9s",
+  "detalle": "HTTP 200 · 118893 bytes · 0.8s",
   "estado": "ok"
  },
  "reparacionelectrodomesticossantander.com": {
-  "detalle": "HTTP 200 · 119838 bytes · 1.2s",
+  "detalle": "HTTP 200 · 119838 bytes · 0.6s",
   "estado": "ok"
  },
  "reparacionelectrodomesticostarragona.com": {
-  "detalle": "HTTP 200 · 108170 bytes · 0.6s",
+  "detalle": "HTTP 200 · 108170 bytes · 0.7s",
   "estado": "ok"
  },
  "reparacionelectrodomesticostoledo.com": {
-  "detalle": "HTTP 200 · 111136 bytes · 0.7s",
+  "detalle": "HTTP 200 · 111136 bytes · 0.6s",
   "estado": "ok"
  },
  "reparacionelectrodomesticosvalladolid.com": {
-  "detalle": "HTTP 200 · 107805 bytes · 0.7s",
+  "detalle": "HTTP 200 · 107805 bytes · 1.1s",
   "estado": "ok"
  },
  "reparacionelectrodomesticosvitoria.com": {
-  "detalle": "HTTP 200 · 98099 bytes · 0.6s",
+  "detalle": "HTTP 200 · 98099 bytes · 0.7s",
   "estado": "ok"
  },
  "reparacionesya.org": {
@@ -1160,7 +1160,7 @@
   "estado": "ok"
  },
  "reparaciónelectrodomésticosvalencia.com": {
-  "detalle": "HTTP 200 · 177699 bytes · 1.0s",
+  "detalle": "HTTP 200 · 177699 bytes · 0.8s",
   "estado": "ok"
  },
  "salamancacerrajeros.com": {
@@ -1172,7 +1172,7 @@
   "estado": "ok"
  },
  "salamancaelectricistas.com": {
-  "detalle": "HTTP 200 · 137429 bytes · 0.6s",
+  "detalle": "HTTP 200 · 137429 bytes · 0.7s",
   "estado": "ok"
  },
  "salamancafontaneros.com": {
@@ -1180,19 +1180,19 @@
   "estado": "ok"
  },
  "santandercerrajeros.com": {
-  "detalle": "HTTP 200 · 229310 bytes · 1.6s",
+  "detalle": "HTTP 200 · 229310 bytes · 0.6s",
   "estado": "ok"
  },
  "santanderfontaneros.com": {
-  "detalle": "HTTP 200 · 115936 bytes · 1.0s",
+  "detalle": "HTTP 200 · 115936 bytes · 0.6s",
   "estado": "ok"
  },
  "sevilladesatascos.com": {
-  "detalle": "HTTP 200 · 111234 bytes · 0.9s",
+  "detalle": "HTTP 200 · 111234 bytes · 0.7s",
   "estado": "ok"
  },
  "sevillareparacionelectrodomesticos.com": {
-  "detalle": "HTTP 200 · 108225 bytes · 0.8s",
+  "detalle": "HTTP 200 · 108225 bytes · 0.6s",
   "estado": "ok"
  },
  "solopersianas.es": {
@@ -1200,11 +1200,11 @@
   "estado": "ok"
  },
  "tarragonacerrajeros.com": {
-  "detalle": "HTTP 200 · 137472 bytes · 0.7s",
+  "detalle": "HTTP 200 · 137472 bytes · 0.6s",
   "estado": "ok"
  },
  "tenerifereparacionelectrodomesticos.com": {
-  "detalle": "HTTP 200 · 108257 bytes · 1.5s",
+  "detalle": "HTTP 200 · 108257 bytes · 0.6s",
   "estado": "ok"
  },
  "toledo-desatascos.com": {
@@ -1216,15 +1216,15 @@
   "estado": "ok"
  },
  "valencia-desatascos.com": {
-  "detalle": "HTTP 200 · 163308 bytes · 0.8s",
+  "detalle": "HTTP 200 · 163308 bytes · 0.6s",
   "estado": "ok"
  },
  "valencia-fontaneros.com": {
-  "detalle": "HTTP 200 · 127689 bytes · 2.3s",
+  "detalle": "HTTP 200 · 127689 bytes · 1.9s",
   "estado": "ok"
  },
  "valencia-fontaneros.es": {
-  "detalle": "HTTP 200 · 82670 bytes · 0.6s",
+  "detalle": "HTTP 200 · 82670 bytes · 0.7s",
   "estado": "ok"
  },
  "valenciacerrajeros.es": {
@@ -1232,19 +1232,19 @@
   "estado": "ok"
  },
  "valenciafontaneros.com": {
-  "detalle": "HTTP 200 · 220099 bytes · 2.1s",
+  "detalle": "HTTP 200 · 220099 bytes · 0.6s",
   "estado": "ok"
  },
  "valladoliddesatascos.com": {
-  "detalle": "HTTP 200 · 131289 bytes · 1.5s",
+  "detalle": "HTTP 200 · 131289 bytes · 1.2s",
   "estado": "ok"
  },
  "xn--cerrajerosbuol-1nb.com": {
-  "detalle": "HTTP 200 · 76258 bytes · 0.7s",
+  "detalle": "HTTP 200 · 76258 bytes · 0.6s",
   "estado": "ok"
  },
  "xn--cerrajeroslacaada-sxb.com": {
-  "detalle": "HTTP 200 · 73526 bytes · 2.3s",
+  "detalle": "HTTP 200 · 73526 bytes · 2.2s",
   "estado": "ok"
  },
  "xn--cerrajerosrafelbuol-c4b.com": {
@@ -1252,15 +1252,15 @@
   "estado": "ok"
  },
  "zaragoza-fontaneros.com": {
-  "detalle": "HTTP 200 · 50995 bytes · 0.7s",
+  "detalle": "HTTP 200 · 50995 bytes · 0.6s",
   "estado": "ok"
  },
  "zaragozacerrajeros.com": {
-  "detalle": "HTTP 200 · 144911 bytes · 0.8s",
+  "detalle": "HTTP 200 · 144911 bytes · 7.0s",
   "estado": "ok"
  },
  "zaragozadesatascos.com": {
-  "detalle": "HTTP 200 · 126128 bytes · 0.8s",
+  "detalle": "HTTP 200 · 126128 bytes · 0.7s",
   "estado": "ok"
  },
  "zaragozaelectricistas.com": {
