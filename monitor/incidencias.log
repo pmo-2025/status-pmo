@@ -216,3 +216,64 @@
 2026-08-20T05:32:01+00:00	CAIDA	puertasautomaticasjc.com	sin respuesta en 20s
 2026-08-20T05:32:01+00:00	CAIDA	valenciacerrajeros.es	sin respuesta en 20s
 2026-08-20T05:32:01+00:00	CAIDA	xn--cerrajeroslacaada-sxb.com	sin respuesta en 20s
+2026-08-20T06:44:33+00:00	CAIDA	valencia-fontaneros.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	murciacerrajeros.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	granadacerrajeros.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	cerrajeros-toledo.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	fontaneros-toledo.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	tenerifereparacionelectrodomesticos.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	santandercerrajeros.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	electricistas-santander.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	fontanerosoviedo.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	electricistasoviedo.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	cerrajeros-en-sevilla.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	electricistas-sevilla.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	tarragonacerrajeros.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	zaragozaelectricistas.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	enreparaciones.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	dinoscuando.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	agrupacioncerrajera.es	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	cerrajerosalboraya.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	cerrajerosdealdaia.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	cerrajerosgandia.eu	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	cerrajeroslapobladevallbona.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	cerrajerosmassalfassar.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	cerrajerosmassanassa.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	cerrajerospuzol.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	cerrajerosquartdepoblet.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	cerrajerossedavi.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	cerrajerosvillamarchante.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	CAIDA	cerrajerotorrent.com	error de conexión (ProxyError)
+2026-08-20T06:44:33+00:00	RECUPERADO	fontaneros-de-valencia.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	murciafontaneros.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	toledoelectricistas.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	fontanerosmallorca.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	electricistasmallorca.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	electricistastenerife.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	fontaneros-pamplona.es	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	fontanerodemadrid.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	reparacionelectrodomesticosmadrid.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerosbilbao.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	fontanerosbarcelona.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerosenzaragoza24.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerodevalencia.es	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerogandia.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerosalbal.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerosalcasser.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerosalfafar.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerosalfaradelpatriarca.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajeroscanetdeberenguer.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerosdeburjasot.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajeroselpuig.com	caído desde 2026-08-20T03:34:08+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerosenpaterna.es	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerosgodella.com	caído desde 2026-08-20T03:34:08+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajeroslapobladefarnals.com	caído desde 2026-08-20T03:34:08+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerosliria.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerosmassamagrell.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerospicanya.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerosribarrojadelturia.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerossanantoniodebenageber.com	caído desde 2026-08-20T04:09:00+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajerostavernesblanques.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	cerrajeroxirivella.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	persianasyautomatismos.com	caído desde 2026-08-20T05:32:01+00:00
+2026-08-20T06:44:33+00:00	RECUPERADO	valenciacerrajeros.es	caído desde 2026-08-20T05:32:01+00:00
