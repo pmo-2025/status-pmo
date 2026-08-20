@@ -450,3 +450,12 @@
 2026-08-20T12:01:58+00:00	CAIDA	cerrajerourgentecastellon.com	sin respuesta en 20s
 2026-08-20T12:13:12+00:00	RECUPERADO	cerrajerourgentecastellon.com	caído desde 2026-08-20T12:01:58+00:00
 2026-08-20T12:23:13+00:00	CAIDA	cerrajerourgentecastellon.com	sin respuesta en 20s
+2026-08-20T12:34:27+00:00	CAIDA	reparacionelectrodomesticostarragona.com	error de conexión (ProxyError)
+2026-08-20T12:34:27+00:00	CAIDA	abriryrecuperar.com	error de conexión (ProxyError)
+2026-08-20T12:34:27+00:00	CAIDA	agrupacioncerrajera.es	error de conexión (ProxyError)
+2026-08-20T12:34:27+00:00	CAIDA	cerrajerodemuseros.com	error de conexión (ProxyError)
+2026-08-20T12:34:27+00:00	CAIDA	cerrajerodesueca.com	error de conexión (ProxyError)
+2026-08-20T12:34:27+00:00	CAIDA	cerrajerolaeliana.es	error de conexión (ProxyError)
+2026-08-20T12:34:27+00:00	CAIDA	cerrajerosalboraya.com	error de conexión (ProxyError)
+2026-08-20T12:34:27+00:00	CAIDA	cerrajerosmuseros.com	error de conexión (ProxyError)
+2026-08-20T12:34:27+00:00	RECUPERADO	cerrajerourgentecastellon.com	caído desde 2026-08-20T12:23:13+00:00
