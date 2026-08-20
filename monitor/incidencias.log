@@ -475,3 +475,5 @@
 2026-08-20T18:54:58+00:00	RECUPERADO	cerrajerosalcasser.com	caído desde 2026-08-20T17:49:10+00:00
 2026-08-20T19:23:20+00:00	CAIDA	cerrajerosenpaterna.es	HTTP 503 · 2500 bytes
 2026-08-20T19:37:22+00:00	RECUPERADO	cerrajerosenpaterna.es	caído desde 2026-08-20T19:23:20+00:00
+2026-08-20T20:24:49+00:00	CAIDA	cerrajerosautonomos.es	error de conexión (ProxyError)
+2026-08-20T20:24:49+00:00	CAIDA	cerrajerosurgente.es	error de conexión (ProxyError)
