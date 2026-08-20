@@ -10,6 +10,7 @@ cambia el estado.
 
 import json
 import os
+import re
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -64,9 +65,26 @@ def host(url):
         return h
 
 
-def proxies():
-    url = os.environ.get("PROXY_URL", "").strip()
-    return {"http": url, "https": url} if url else None
+# PROXY_URLS admite varias URLs separadas por comas o saltos de línea. Se rota
+# entre ellas para repartir la carga, y cada reintento sale por un proxy
+# distinto: así una salida caída no tumba el escaneo entero, que es lo que pasó
+# la madrugada del 20-ago (94-111 fallos a la vez con un solo proxy).
+def lista_proxies():
+    # PROXY_URLS (lista) para este escaneo; PROXY_URL (una sola) es la que
+    # heredan Upptime y response-time como HTTP_PROXY, y ahí una lista
+    # separada por comas no vale. Si no hay lista, se usa la de siempre.
+    crudo = os.environ.get("PROXY_URLS", "") or os.environ.get("PROXY_URL", "")
+    return [p for p in re.split(r"[,\s]+", crudo) if p]
+
+
+PROXIES = lista_proxies()
+
+
+def proxies(turno=0):
+    if not PROXIES:
+        return None
+    url = PROXIES[turno % len(PROXIES)]
+    return {"http": url, "https": url}
 
 
 def sitios():
@@ -75,10 +93,10 @@ def sitios():
     return [(s["name"], s["url"]) for s in conf["sites"]]
 
 
-def comprobar(url, sesion):
+def comprobar(url, sesion, turno=0):
     """Devuelve (ok, detalle)."""
     try:
-        r = sesion.get(url, timeout=TIMEOUT, proxies=proxies(),
+        r = sesion.get(url, timeout=TIMEOUT, proxies=proxies(turno),
                        headers={"User-Agent": UA}, allow_redirects=True)
     except requests.exceptions.Timeout:
         return False, f"sin respuesta en {TIMEOUT}s"
@@ -102,15 +120,19 @@ def comprobar(url, sesion):
     return True, f"HTTP {r.status_code} · {tam} bytes · {r.elapsed.total_seconds():.1f}s"
 
 
-def barrer(lista):
-    """Comprueba una lista de (nombre, url) en paralelo."""
+def barrer(lista, vuelta=0):
+    """Comprueba una lista de (nombre, url) en paralelo.
+
+    `vuelta` desplaza el reparto de proxies: en los reintentos cada sitio sale
+    por una salida distinta de la que ya le falló.
+    """
     resultados = {}
     with requests.Session() as sesion:
-        def tarea(item):
-            nombre, url = item
-            return nombre, comprobar(url, sesion)
+        def tarea(par):
+            i, (nombre, url) = par
+            return nombre, comprobar(url, sesion, i + vuelta)
         with ThreadPoolExecutor(max_workers=CONCURRENCIA) as pool:
-            for nombre, res in pool.map(tarea, lista):
+            for nombre, res in pool.map(tarea, enumerate(lista)):
                 resultados[nombre] = res
     return resultados
 
@@ -156,7 +178,7 @@ def main():
             break
         time.sleep(ESPERA_REINTENTO)
         repetir = [(n, u) for n, u in lista if n in fallos]
-        segunda = barrer(repetir)
+        segunda = barrer(repetir, vuelta=intento)
         fallos = {n: d for n, (ok, d) in segunda.items() if not ok}
         print(f"intento {intento}: {len(fallos)} fallos")
         for n, (ok, d) in segunda.items():

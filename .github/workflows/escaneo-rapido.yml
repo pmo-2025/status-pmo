@@ -34,6 +34,7 @@ jobs:
 
       - name: Escanear cada 9 minutos durante ~1 hora
         env:
+          PROXY_URLS: ${{ secrets.PROXY_URLS }}
           PROXY_URL: ${{ secrets.PROXY_URL }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
