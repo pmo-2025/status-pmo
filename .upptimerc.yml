@@ -3,8 +3,6 @@ owner: pmo-2025 # Your GitHub organization or username, where this repository li
 repo: status-pmo # The name of this repository
 
 sites:
-  - name: "solucionas.es"
-    url: https://solucionas.es
   - name: "cerrajerosleon.com"
     url: https://cerrajerosleon.com
   - name: "reparacionelectrodomesticosleon.com"
@@ -37,8 +35,6 @@ sites:
     url: https://malagadesatascos.com
   - name: "cerrajeroscadiz.com"
     url: https://cerrajeroscadiz.com
-  - name: "reparacionelectrodomesticoscadiz.com"
-    url: https://reparacionelectrodomesticoscadiz.com
   - name: "fontaneroscadiz.com"
     url: https://fontaneroscadiz.com
   - name: "electricistascadiz.com"
@@ -159,8 +155,6 @@ sites:
     url: https://desatascospalma.com
   - name: "reparacionelectrodomesticosmallorca.com"
     url: https://reparacionelectrodomesticosmallorca.com
-  - name: "reparacionelectrodomesticospalma.com"
-    url: https://reparacionelectrodomesticospalma.com
   - name: "desatascos-tenerife.com"
     url: https://desatascos-tenerife.com
   - name: "cerrajerostenerife.com"
@@ -343,42 +337,6 @@ sites:
     url: https://arregla2.com
   - name: "como-reparo.com"
     url: https://como-reparo.com
-  - name: "customgraf.es"
-    url: https://customgraf.es
-  - name: "abriryrecuperar.com"
-    url: https://abriryrecuperar.com
-  - name: "mezclaquetemezcla.com"
-    url: https://mezclaquetemezcla.com
-  - name: "telas-mexico.mx"
-    url: https://telas-mexico.mx
-  - name: "genealogico.es"
-    url: https://genealogico.es
-  - name: "sondeled.es"
-    url: https://sondeled.es
-  - name: "comando-app.com"
-    url: https://comando-app.com
-  - name: "avicolamauro2020.it"
-    url: https://avicolamauro2020.it
-  - name: "pmasters.es"
-    url: http://pmasters.es
-  - name: "teoremas.net"
-    url: https://teoremas.net
-  - name: "opositan.com"
-    url: https://opositan.com
-  - name: "organigrama10.com"
-    url: https://organigrama10.com
-  - name: "montar10.com"
-    url: https://montar10.com
-  - name: "autonomos10.com"
-    url: https://autonomos10.com
-  - name: "robotica10.com"
-    url: https://robotica10.com
-  - name: "valenciaestrella.com"
-    url: https://valenciaestrella.com
-  - name: "tiendanavajas.es"
-    url: https://tiendanavajas.es
-  - name: "acerrajeros.com"
-    url: https://acerrajeros.com
   - name: "agrupacioncerrajera.es"
     url: https://agrupacioncerrajera.es
   - name: "autonomos24h.es"
@@ -444,8 +402,6 @@ sites:
     url: https://cerrajerodebenetusser.com
   - name: "cerrajerodebetera.com"
     url: https://cerrajerodebetera.com
-  - name: "cerrajerodecalpe.com"
-    url: https://cerrajerodecalpe.com
   - name: "cerrajerodecatarroja.com"
     url: https://cerrajerodecatarroja.com
   - name: "cerrajerodeeliana.com"
@@ -598,8 +554,6 @@ sites:
     url: https://cerrajeroselperello.com
   - name: "cerrajeroselpuig.com"
     url: https://cerrajeroselpuig.com
-  - name: "cerrajerosenaltea.com"
-    url: https://cerrajerosenaltea.com
   - name: "cerrajerosenpaterna.es"
     url: https://cerrajerosenpaterna.es
   - name: "cerrajerosentorrente.es"
@@ -664,8 +618,6 @@ sites:
     url: https://cerrajerotavernesblanques.es
   - name: "cerrajerotorrent.com"
     url: https://cerrajerotorrent.com
-  - name: "cerrajerourgentecastellon.com"
-    url: https://cerrajerourgentecastellon.com
   - name: "cerrajeroxirivella.com"
     url: https://cerrajeroxirivella.com
   - name: "cerrajeroxirivella.es"
