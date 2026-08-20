@@ -3,6 +3,8 @@ owner: pmo-2025 # Your GitHub organization or username, where this repository li
 repo: status-pmo # The name of this repository
 
 sites:
+  - name: "solucionas.es"
+    url: https://solucionas.es
   - name: "cerrajerosleon.com"
     url: https://cerrajerosleon.com
   - name: "reparacionelectrodomesticosleon.com"
@@ -327,8 +329,54 @@ sites:
     url: https://fontanerosmallorca.net
   - name: "cerrajerosmadrid.page"
     url: https://cerrajerosmadrid.page
+  - name: "fontanerosmadrid.page"
+    url: https://fontanerosmadrid.page
   - name: "fontanerosvalencia.page"
     url: https://fontanerosvalencia.page
+  - name: "enreparaciones.com"
+    url: https://enreparaciones.com
+  - name: "reparacionesya.org"
+    url: https://reparacionesya.org
+  - name: "dinoscuando.com"
+    url: https://dinoscuando.com
+  - name: "arregla2.com"
+    url: https://arregla2.com
+  - name: "como-reparo.com"
+    url: https://como-reparo.com
+  - name: "customgraf.es"
+    url: https://customgraf.es
+  - name: "abriryrecuperar.com"
+    url: https://abriryrecuperar.com
+  - name: "mezclaquetemezcla.com"
+    url: https://mezclaquetemezcla.com
+  - name: "telas-mexico.mx"
+    url: https://telas-mexico.mx
+  - name: "genealogico.es"
+    url: https://genealogico.es
+  - name: "sondeled.es"
+    url: https://sondeled.es
+  - name: "comando-app.com"
+    url: https://comando-app.com
+  - name: "avicolamauro2020.it"
+    url: https://avicolamauro2020.it
+  - name: "pmasters.es"
+    url: http://pmasters.es
+  - name: "teoremas.net"
+    url: https://teoremas.net
+  - name: "opositan.com"
+    url: https://opositan.com
+  - name: "organigrama10.com"
+    url: https://organigrama10.com
+  - name: "montar10.com"
+    url: https://montar10.com
+  - name: "autonomos10.com"
+    url: https://autonomos10.com
+  - name: "robotica10.com"
+    url: https://robotica10.com
+  - name: "valenciaestrella.com"
+    url: https://valenciaestrella.com
+  - name: "tiendanavajas.es"
+    url: https://tiendanavajas.es
   - name: "acerrajeros.com"
     url: https://acerrajeros.com
   - name: "agrupacioncerrajera.es"
@@ -642,84 +690,6 @@ sites:
     url: https://xn--cerrajeroslacaada-sxb.com
   - name: "xn--cerrajerosrafelbuol-c4b.com"
     url: https://xn--cerrajerosrafelbuol-c4b.com
-
-  - name: "agrupacioncerrajera.com"
-    url: https://agrupacioncerrajera.com
-  - name: "centroslaserpro.es"
-    url: https://centroslaserpro.es
-  - name: "cerrajerosagunto.es"
-    url: https://cerrajerosagunto.es
-  - name: "cerrajerosautonomos.com"
-    url: https://cerrajerosautonomos.com
-  - name: "cerrajerosautonomos.es"
-    url: https://cerrajerosautonomos.es
-  - name: "cerrajerosenalicante.es"
-    url: https://cerrajerosenalicante.es
-  - name: "cerrajerosurgente.es"
-    url: https://cerrajerosurgente.es
-  - name: "cerrajerosvalencia.com"
-    url: https://cerrajerosvalencia.com
-  - name: "cerrajerourgente24h.es"
-    url: https://cerrajerourgente24h.es
-  - name: "construcciones-barcelona.com"
-    url: https://construcciones-barcelona.com
-  - name: "construcciones-barcelona.es"
-    url: https://construcciones-barcelona.es
-  - name: "construcciones-girona.es"
-    url: https://construcciones-girona.es
-  - name: "construcciones-valencia.com"
-    url: https://construcciones-valencia.com
-  - name: "construcciones-valencia.net"
-    url: https://construcciones-valencia.net
-  - name: "construccionesalicante.com"
-    url: https://construccionesalicante.com
-  - name: "construccionesgirona.es"
-    url: https://construccionesgirona.es
-  - name: "imprentaonline-naturaprint.com"
-    url: https://imprentaonline-naturaprint.com
-  - name: "imprentavalencia.online"
-    url: https://imprentavalencia.online
-  - name: "koworkmeliana.com"
-    url: https://koworkmeliana.com
-  - name: "lignify.com"
-    url: https://lignify.com
-  - name: "pergolas-alicante.com"
-    url: https://pergolas-alicante.com
-  - name: "pergolas-valencia.com"
-    url: https://pergolas-valencia.com
-  - name: "persianasmetalicasenrollables.com"
-    url: https://persianasmetalicasenrollables.com
-  - name: "publicidadmarketingonline.com"
-    url: https://publicidadmarketingonline.com
-  - name: "sucerrajero24h.com"
-    url: https://sucerrajero24h.com
-  - name: "tapiceria-barcelona.com"
-    url: https://tapiceria-barcelona.com
-  - name: "tapiceria-valencia.com"
-    url: https://tapiceria-valencia.com
-  - name: "tapiceriacastellon.com"
-    url: https://tapiceriacastellon.com
-  - name: "tapicerosbilbao.com"
-    url: https://tapicerosbilbao.com
-  - name: "tapicerosgranada.com"
-    url: https://tapicerosgranada.com
-  - name: "veganic.bio"
-    url: https://veganic.bio
-
-  - name: "arregla2.com"
-    url: https://arregla2.com
-  - name: "como-reparo.com"
-    url: https://como-reparo.com
-  - name: "dinoscuando.com"
-    url: https://dinoscuando.com
-  - name: "enreparaciones.com"
-    url: https://enreparaciones.com
-  - name: "reparacionesya.org"
-    url: https://reparacionesya.org
-  - name: "solucionas.es"
-    url: https://solucionas.es
-  - name: "valenciaestrella.com"
-    url: https://valenciaestrella.com
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you do not have a domain
