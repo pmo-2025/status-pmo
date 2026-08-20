@@ -409,6 +409,9 @@ sites:
     url: https://cerrajeroalzira.com
   - name: "cerrajerobenetusser.com"
     url: https://cerrajerobenetusser.com
+    # El 13-ago se quedó 7 días sirviendo un 200 con 0 bytes y Upptime la dio
+    # por buena, porque solo mira el código. Así también mira el contenido.
+    __dangerous__body_down_if_text_missing: "Cerrajero"
   - name: "cerrajerobetera.com"
     url: https://cerrajerobetera.com
   - name: "cerrajerobetera.es"
