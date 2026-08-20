@@ -327,8 +327,6 @@ sites:
     url: https://fontanerosmallorca.net
   - name: "cerrajerosmadrid.page"
     url: https://cerrajerosmadrid.page
-  - name: "fontanerosmadrid.page"
-    url: https://fontanerosmadrid.page
   - name: "fontanerosvalencia.page"
     url: https://fontanerosvalencia.page
   - name: "acerrajeros.com"
@@ -707,6 +705,21 @@ sites:
     url: https://tapicerosgranada.com
   - name: "veganic.bio"
     url: https://veganic.bio
+
+  - name: "arregla2.com"
+    url: https://arregla2.com
+  - name: "como-reparo.com"
+    url: https://como-reparo.com
+  - name: "dinoscuando.com"
+    url: https://dinoscuando.com
+  - name: "enreparaciones.com"
+    url: https://enreparaciones.com
+  - name: "reparacionesya.org"
+    url: https://reparacionesya.org
+  - name: "solucionas.es"
+    url: https://solucionas.es
+  - name: "valenciaestrella.com"
+    url: https://valenciaestrella.com
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you do not have a domain
