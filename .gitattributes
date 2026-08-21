@@ -7,3 +7,7 @@
 
 # YAML
 *.yml linguist-detectable=true
+
+# El log de incidencias es un histórico que escriben varios runs a la vez:
+# si dos versiones divergen, se quedan las líneas de ambas en vez de dar conflicto.
+monitor/incidencias.log merge=union

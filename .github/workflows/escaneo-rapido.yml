@@ -40,19 +40,55 @@ jobs:
         run: |
           git config user.name "Monitor PMO"
           git config user.email "monitor@users.noreply.github.com"
-          for pasada in 1 2 3 4 5 6; do
-            echo "=== pasada $pasada de 6 ==="
-            python3 monitor/escaneo.py || echo "la pasada $pasada fallo, se sigue"
 
+          # Uptime CI y el run anterior de este mismo workflow commitean en
+          # paralelo. Antes se resolvía con "git pull --rebase", pero cuando el
+          # otro lado también había tocado monitor/estado.json el rebase se
+          # quedaba en conflicto, salía con código 1 y mataba el paso entero:
+          # se perdían las pasadas que faltaban (runs en rojo del 21-ago).
+          # Ahora no se rebasa nunca: si el push se rechaza, se vuelve a partir
+          # de origin/master y se reaplican nuestros ficheros, que no pueden
+          # entrar en conflicto porque sabemos cuál gana en cada uno.
+          empujar_estado() {
             git add monitor/estado.json monitor/incidencias.log
             if git diff --cached --quiet; then
               echo "sin cambios de estado"
-            else
-              git commit -m "estado: actualizar monitor [skip ci]"
-              # Uptime CI commitea en paralelo: rebase y un reintento
-              git pull --rebase --autostash -q origin master
-              git push -q || { sleep 15; git pull --rebase --autostash -q origin master && git push -q; }
+              return 0
             fi
+            git commit -q -m "estado: actualizar monitor [skip ci]"
+            for intento in 1 2 3; do
+              if git push -q origin HEAD:master; then
+                return 0
+              fi
+              echo "push rechazado (intento $intento): otro run empujó antes, se rehace encima"
+              cp monitor/estado.json "$RUNNER_TEMP/estado.json"
+              cp monitor/incidencias.log "$RUNNER_TEMP/incidencias.log"
+              git fetch -q origin master
+              git reset -q --hard origin/master
+              # estado.json: gana nuestra medición, que es la más reciente
+              cp "$RUNNER_TEMP/estado.json" monitor/estado.json
+              # incidencias.log: es un histórico, se unen las dos versiones.
+              # El sello de tiempo va primero, así que sort -u deja las líneas
+              # en orden cronológico y sin duplicados.
+              cat monitor/incidencias.log "$RUNNER_TEMP/incidencias.log" \
+                | grep -v '^[[:space:]]*$' | sort -u > "$RUNNER_TEMP/union.log"
+              mv "$RUNNER_TEMP/union.log" monitor/incidencias.log
+              git add monitor/estado.json monitor/incidencias.log
+              if git diff --cached --quiet; then
+                echo "el otro run ya había guardado lo mismo"
+                return 0
+              fi
+              git commit -q -m "estado: actualizar monitor [skip ci]"
+              sleep 5
+            done
+            echo "no se pudo empujar el estado tras 3 intentos; se sigue escaneando"
+            return 0
+          }
+
+          for pasada in 1 2 3 4 5 6; do
+            echo "=== pasada $pasada de 6 ==="
+            python3 monitor/escaneo.py || echo "la pasada $pasada fallo, se sigue"
+            empujar_estado
 
             if [ "$pasada" -lt 6 ]; then sleep 540; fi
           done
