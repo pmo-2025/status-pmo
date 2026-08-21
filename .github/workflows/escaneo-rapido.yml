@@ -85,10 +85,31 @@ jobs:
             return 0
           }
 
+          # estado.json cambia en TODAS las pasadas aunque no pase nada, porque
+          # "detalle" lleva los bytes y el tiempo de respuesta. Eso dejaba ~6
+          # commits por hora de puro ruido, cada uno con 268 líneas tocadas y
+          # cada uno una ocasión de chocar con otro run. Solo se guarda cuando
+          # cambia de verdad el estado de alguna web.
+          hay_cambios_de_estado() {
+            if ! git diff --quiet -- monitor/incidencias.log; then
+              return 0
+            fi
+            if git diff -U0 -- monitor/estado.json                | grep -qE '^[+-][[:space:]]*"(estado|desde)"'; then
+              return 0
+            fi
+            return 1
+          }
+
           for pasada in 1 2 3 4 5 6; do
             echo "=== pasada $pasada de 6 ==="
             python3 monitor/escaneo.py || echo "la pasada $pasada fallo, se sigue"
-            empujar_estado
+
+            if hay_cambios_de_estado; then
+              empujar_estado
+            else
+              echo "sin novedades: solo cambian bytes y tiempos, no se guarda"
+              git checkout -q -- monitor/estado.json
+            fi
 
             if [ "$pasada" -lt 6 ]; then sleep 540; fi
           done
