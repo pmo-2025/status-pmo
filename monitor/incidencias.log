@@ -685,3 +685,9 @@
 2026-08-27T10:33:33+00:00	CAIDA	cerrajerocarlet.com	HTTP 500 · 2698 bytes
 2026-08-27T10:43:47+00:00	RECUPERADO	cerrajerocarlet.com	caído desde 2026-08-27T10:33:33+00:00
 2026-09-02T12:29:21+00:00	CAIDA	fontaneros-de-valencia.com	error de conexión (TooManyRedirects)
+2026-09-03T13:45:01+00:00	CAIDA	fontaneroscoruna.com	error de conexión (ProxyError)
+2026-09-03T13:45:01+00:00	CAIDA	cerrajeroscoruna.com	error de conexión (ProxyError)
+2026-09-03T13:45:01+00:00	CAIDA	cerrajerosvalladolid.com	error de conexión (ProxyError)
+2026-09-03T13:45:01+00:00	CAIDA	fontanerosvalladolid.com	error de conexión (ProxyError)
+2026-09-03T13:45:01+00:00	CAIDA	electricistasvalladolid.com	sin respuesta en 20s
+2026-09-03T13:45:01+00:00	RECUPERADO	fontaneros-de-valencia.com	caído desde 2026-09-02T12:29:21+00:00
