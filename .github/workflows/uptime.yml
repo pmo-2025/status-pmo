@@ -15,14 +15,14 @@
 
 
 name: Uptime CI
+# Desactivado a propósito (disabled_manually): escaneo-rapido.yml hace ahora
+# la detección real cada ~10 min. Este workflow se dejó con el cron puesto,
+# y GitHub seguía "intentando" dispararlo cada 30 min pese a estar
+# desactivado — 0 jobs ejecutados, pero SÍ mandaba el email de "Run failed:
+# No jobs were run" cada vez, spam sin ningún aviso real detrás. Se quitan
+# schedule/repository_dispatch; se deja solo workflow_dispatch por si algún
+# día hace falta lanzarlo a mano.
 on:
-  schedule:
-    # cada 30 min: la pasada dura ~10 min, con */10 los disparos se pisaban y
-    # GitHub los descartaba (acababa corriendo 1 vez cada 1-3 h). La detección
-    # rápida la hace ahora .github/workflows/escaneo-rapido.yml cada 10 min.
-    - cron: "*/30 * * * *"
-  repository_dispatch:
-    types: [uptime]
   workflow_dispatch:
 jobs:
   release:
