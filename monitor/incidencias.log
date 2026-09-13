@@ -704,3 +704,10 @@
 2026-09-06T22:19:13+00:00	RECUPERADO	electricistascoruna.com	caído desde 2026-09-06T22:08:40+00:00
 2026-09-11T08:21:36+00:00	CAIDA	cerrajeropaterna.es	error de conexión (ProxyError)
 2026-09-11T08:32:04+00:00	RECUPERADO	cerrajeropaterna.es	caído desde 2026-09-11T08:21:36+00:00
+2026-09-13T05:07:57+00:00	CAIDA	cerrajeroalbal.es	HTTP 500 · 0 bytes
+2026-09-13T05:07:57+00:00	CAIDA	cerrajeroenburjassot.es	HTTP 500 · 0 bytes
+2026-09-13T05:07:57+00:00	CAIDA	cerrajerogodella.com	HTTP 500 · 0 bytes
+2026-09-13T05:07:57+00:00	CAIDA	cerrajerorolapobladevallbona.es	HTTP 500 · 0 bytes
+2026-09-13T05:07:57+00:00	CAIDA	cerrajeroropicanya.es	HTTP 500 · 0 bytes
+2026-09-13T05:07:57+00:00	CAIDA	cerrajerosedavi.es	HTTP 500 · 0 bytes
+2026-09-13T05:07:57+00:00	CAIDA	cerrajerotavernesblanques.es	HTTP 500 · 0 bytes
